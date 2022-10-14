@@ -1,6 +1,6 @@
 Installing VScode: 
 
-![](https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png)
+![](https://drive.google.com/file/d/1SU9r2Lz9XhEXMrKNPCcA-JqMyTUR0RoX/view?usp=sharing)
 
 Remotely Connecting
 Trying Some Commands
