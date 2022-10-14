@@ -1,6 +1,6 @@
 Installing VScode: 
 
-![](https://drive.google.com/file/d/1SU9r2Lz9XhEXMrKNPCcA-JqMyTUR0RoX/view?usp=sharing)
+![](https://lh3.googleusercontent.com/drive-viewer/AJc5JmRPxprBTuJEI6OOwg2BU5izNrQ6Ai-Y_r2oaojfD1mnaBfBGf1nKInnDnqsTyNK9dD8Y2UJxl4=w1920-h853)
 
 Remotely Connecting
 Trying Some Commands
