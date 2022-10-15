@@ -13,6 +13,9 @@ This part was easy for me as I didn't have to do anything! I already had VS Code
 
 
 
+![Remote Connection] (https://lh3.googleusercontent.com/drive-viewer/AJc5JmQnJGuwRVYEOyE0-SqEd7yFFP4tB_dChDhV-eSd3TGwMg0aGS-BlHfioEO-IaQXvJb23B26u2s=w1920-h853)
+
+
 *Trying Some Commands*
 
 
