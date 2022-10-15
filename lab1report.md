@@ -9,8 +9,20 @@ This part was easy for me as I didn't have to do anything! I already had VS Code
 
 ![Inside of VS Code](https://lh3.googleusercontent.com/drive-viewer/AJc5JmRPxprBTuJEI6OOwg2BU5izNrQ6Ai-Y_r2oaojfD1mnaBfBGf1nKInnDnqsTyNK9dD8Y2UJxl4=w1920-h853)
 
-Remotely Connecting
-Trying Some Commands
-Moving Files with scp
-Setting an SSH Key
-Optimizing Remote Running
+*Remotely Connecting*
+
+
+
+*Trying Some Commands*
+
+
+
+*Moving Files with scp*
+
+
+
+*Setting an SSH Key*
+
+
+
+*Optimizing Remote Running*
