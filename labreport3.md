@@ -69,12 +69,54 @@ plos/pmed.0010071.txt:        considering the combined burden of HIV/AIDS, tuber
 
 &nbsp;
 
-*-c: count matching lines*
+*-c: match count*
 
-Example 1:
+Example 1: Going off one of the previous examples, we can use the -c command here to count the matches for "Osama" in the 9/11 reports. We can see matches in just 3 files amounting to just 9 total matches, which is a bit surprising. That gives me an idea...
+
+```
+my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
+$ grep -c "Osama" 911report/*
+911report/chapter-1.txt:0
+911report/chapter-10.txt:0
+911report/chapter-11.txt:0
+911report/chapter-12.txt:0
+911report/chapter-13.1.txt:0
+911report/chapter-13.2.txt:0
+911report/chapter-13.3.txt:2
+911report/chapter-13.4.txt:5
+911report/chapter-13.5.txt:0
+911report/chapter-2.txt:0
+911report/chapter-3.txt:0
+911report/chapter-5.txt:0
+911report/chapter-6.txt:0
+911report/chapter-7.txt:2
+911report/chapter-8.txt:0
+911report/chapter-9.txt:0
+```
 
 
-Example 2:
+Example 2: Here, we can see a significantly higher number of matches by counting for "bin Laden" instead of "Osama" in the 9/11 reports. That being said, my questions have not stopped. Practically all of the matches are found in 13.3 (36!) and other files have lost their matches. Did the other files refer to him by just his first name? I guess it must be.
+
+```
+my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
+$ grep -c "bin Laden" 911report/chapter*
+911report/chapter-1.txt:0
+911report/chapter-10.txt:0
+911report/chapter-11.txt:0
+911report/chapter-12.txt:0
+911report/chapter-13.1.txt:0
+911report/chapter-13.2.txt:0
+911report/chapter-13.3.txt:36
+911report/chapter-13.4.txt:1
+911report/chapter-13.5.txt:0
+911report/chapter-2.txt:0
+911report/chapter-3.txt:0
+911report/chapter-5.txt:0
+911report/chapter-6.txt:0
+911report/chapter-7.txt:0
+911report/chapter-8.txt:0
+911report/chapter-9.txt:0
+```
 
 
 Example 3:
