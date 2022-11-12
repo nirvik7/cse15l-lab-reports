@@ -34,7 +34,7 @@ plos/pmed.0010030.txt:        (especially nevirapine) actually leads to a reduct
 plos/pmed.0010030.txt:        The study was funded by Boehringer Ingelheim, the manufacturer of nevirapine. The
 ```
 
-Example 3: This one isn't that interesting. I wanted to see how many times the word "aids" would be intermixed with the disease "AIDS" but on this search, it seems that it's a pretty rare scenario amounting to a grand total of 0 times. 
+Example 3: This one isn't that interesting. I wanted to see how many times the word "aids" would be intermixed with the disease "AIDS" but on the evidence of this search, it seems that it's a pretty rare occurrence amounting to a grand total of 0 times. 
 
 ```
 my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
