@@ -13,7 +13,7 @@ This part was easy for me as I didn't have to do anything! I already had VS Code
 
 Unfortunately, my account did not work for some reason so I had to log in with a TA account. In this step, you first open up a terminal and type "ssh" with your account email. Then, once prompted, you type "yes" to establish authentication. You should now be connected and your screen should look like this:
 
-![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQnJGuwRVYEOyE0-SqEd7yFFP4tB_dChDhV-eSd3TGwMg0aGS-BlHfioEO-IaQXvJb23B26u2s=w1920-h853)
+![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AJc5JmSiqehA029C-L3mEcQlO7i8kXZxeog8LwSK7ND_5OLwA15B2PlN_x5kx_jLxxk64MO99D6c5JjMULxqr0S__pEvgCa6dg=w1920-h853)
 
 
 *Trying Some Commands*
