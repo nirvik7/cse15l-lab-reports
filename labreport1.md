@@ -18,6 +18,14 @@ Unfortunately, my account did not work for some reason so I had to log in with a
 
 *Trying Some Commands*
 
+There are many commands that you can use in the terminal. Here are some simple ones to try.
+
+cd: change directory, cd (name) will change to (name) directory while cd .. will take you back to the previous directory
+ls: list files in directory
+cat: displays file contents
+cp: copy files
+
+![Trying Commands](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQnJGuwRVYEOyE0-SqEd7yFFP4tB_dChDhV-eSd3TGwMg0aGS-BlHfioEO-IaQXvJb23B26u2s=w1920-h853)
 
 
 *Moving Files with scp*
