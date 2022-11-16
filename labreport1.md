@@ -15,10 +15,9 @@ Unfortunately, my account did not work for some reason so I had to log in with a
 
 ![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AJc5JmSiqehA029C-L3mEcQlO7i8kXZxeog8LwSK7ND_5OLwA15B2PlN_x5kx_jLxxk64MO99D6c5JjMULxqr0S__pEvgCa6dg=w1920-h853)
 
-
 *Trying Some Commands*
 
-There are many commands that you can use in the terminal. Here are some simple ones to try.
+There are many commands that you can use in the terminal. Here are some simple ones to try, pictured is an example of cd and ls being used. 
 
 -  cd: change directory, cd (name) will change to (name) directory while cd .. will take you back to the previous directory 
 -  ls: list files in directory
@@ -37,3 +36,12 @@ There are many commands that you can use in the terminal. Here are some simple o
 
 
 *Optimizing Remote Running*
+
+To optimize your remote running experience, here are some shortcuts/tips. Remember though, this is far from all of what you can do, and you should take your time to learn as many tricks as you can. You can see examples in the picture. 
+
+- Commands can be written in quotes at the end of an ssh command to be directly run on the remote server
+- Semicolons can usually be used to run multiple commands on the same line
+- The up-arrow can be used to recall the last command that was run
+
+![Optimization](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQnJGuwRVYEOyE0-SqEd7yFFP4tB_dChDhV-eSd3TGwMg0aGS-BlHfioEO-IaQXvJb23B26u2s=w1920-h853)
+
