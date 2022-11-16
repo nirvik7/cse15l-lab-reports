@@ -7,7 +7,7 @@ Here is the step-by-step process I took to log into my course-specific account o
 
 This part was easy for me as I didn't have to do anything! I already had VS Code so I moved on to the next step. If you do not have VS Code, here is the link to their website: https://code.visualstudio.com/.
 
-![Inside of VS Code](https://lh3.googleusercontent.com/drive-viewer/AJc5JmRPxprBTuJEI6OOwg2BU5izNrQ6Ai-Y_r2oaojfD1mnaBfBGf1nKInnDnqsTyNK9dD8Y2UJxl4=w1920-h853)
+![Inside of VS Code](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQKwAfoLfCwqQQUoQsTBrpaw5PZwuID7mpcW3zY0q0EzwtZZHIN1shg4o0tk1bMA8b0oRFU27KBDPi1NqLipsZcIp0J=w1920-h853)
 
 *Remotely Connecting*
 
