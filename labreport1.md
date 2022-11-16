@@ -29,11 +29,19 @@ There are many commands that you can use in the terminal. Here are some simple o
 
 *Moving Files with scp*
 
+scp is a very useful command that securely copies files from your local computer to the server. 
 
+- Create a java file. For this, I create a file called WhereAmI.java with code that was provided from the course. You could create one as simple as a file that only prints out "Hello World!". Save it
+- In terminal, type scp "fileName" directory. For instance, since I am transferring over WhereAmI.java, I would be typing scp WhereAmI.java cs15lfa22ni@ieng6.ucsd.edu:~/ to transfer to your remote server.
+- Input your password and press enter. You've done it!
+
+![Moving Files](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQnJGuwRVYEOyE0-SqEd7yFFP4tB_dChDhV-eSd3TGwMg0aGS-BlHfioEO-IaQXvJb23B26u2s=w1920-h853)
 
 *Setting an SSH Key*
 
+In this case, there is a great solution – ssh keys. The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password.
 
+![Setting Key](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQnJGuwRVYEOyE0-SqEd7yFFP4tB_dChDhV-eSd3TGwMg0aGS-BlHfioEO-IaQXvJb23B26u2s=w1920-h853)
 
 *Optimizing Remote Running*
 
