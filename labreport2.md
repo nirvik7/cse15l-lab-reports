@@ -53,3 +53,17 @@ class SearchEngine {
     }
 }
 ```
+
+Landing Page:
+
+This is the homepage for the Simplest Search Engine. It calls the handleRequest function for the if case of "/" and outputs "Welcome to the Simplest Search Engine!"
+
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQeJz1S8yD9PJ_I_oWdYVvVIY9Fsl6KkaPM0wjNUWpvJuw9Bd87eUpNF05ycYIiU89hNMW5lmLIkCI6EVM4gUqqtuRZ6w=w1920-h901)
+
+Add:
+
+![SS2](https://lh3.googleusercontent.com/drive-viewer/AJc5JmR70wCYwj4Ls2sXCgxYoPLpGlcvtvqkOUXj4PIVj6lbQb4dAeGjqv467M31PkIMb9V24QHanjD6HXEg7g-wL3oEg3mXkA=w1920-h901)
+
+Query:
+
+![SS3](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQQlvExvXcIAan3mIVYSsW7UJ_e7IY5TqF1IT_DQOW6tBDhGnxVdV3-hjb8vqNbRp7cE0FGDpqqgjj8m6eoSYOGoRR0=w1920-h901)
