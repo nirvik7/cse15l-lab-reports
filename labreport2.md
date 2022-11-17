@@ -62,11 +62,13 @@ This is the homepage for the Simplest Search Engine. It calls the handleRequest 
 
 Add:
 
-To add an element, the handleRequest method is called again. The "/add" in the url leads us to the first else-if statement where a String array is created with the parameters after "?". The two parts are split by the "=" sign where the method will check if parameter[0] is "s". If so, parameter[1], the element to be added, is added into the ArrayList called listElement. The screen will print out a message notifying the user that their element has been added.
+To add an element, the handleRequest method is called again. The "/add" in the url leads us to the first else-if statement where a String array called parameters is created that checks the remainder of the url after finding the query symbol, "?". The two parts are split by the "=" sign where the method will check if parameter[0] is "s". If so, parameter[1], the element to be added, is added into the ArrayList called engineList. The screen will print out a message notifying the user that their element has been added.
 
 ![SS2](https://lh3.googleusercontent.com/drive-viewer/AJc5JmR70wCYwj4Ls2sXCgxYoPLpGlcvtvqkOUXj4PIVj6lbQb4dAeGjqv467M31PkIMb9V24QHanjD6HXEg7g-wL3oEg3mXkA=w1920-h901)
 
 Query:
+
+Finally, we have the query function that again calls the handleRequest method. This time, the "/search" in the url leads us to the second else-if statement that does initially does the same thing as the first else-if statement. However, here parameter[1] is what is to be searched, so the method searches for this string in the elements in engineList and prints all the matches out. 
 
 ![SS3](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQQlvExvXcIAan3mIVYSsW7UJ_e7IY5TqF1IT_DQOW6tBDhGnxVdV3-hjb8vqNbRp7cE0FGDpqqgjj8m6eoSYOGoRR0=w1920-h901)
 
