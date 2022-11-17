@@ -56,11 +56,13 @@ class SearchEngine {
 
 Landing Page:
 
-This is the homepage for the Simplest Search Engine. It calls the handleRequest function for the if case of "/" and outputs "Welcome to the Simplest Search Engine!"
+This is the homepage for the Simplest Search Engine. It calls the handleRequest method for the if case of "/" and outputs "Welcome to the Simplest Search Engine!"
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQeJz1S8yD9PJ_I_oWdYVvVIY9Fsl6KkaPM0wjNUWpvJuw9Bd87eUpNF05ycYIiU89hNMW5lmLIkCI6EVM4gUqqtuRZ6w=w1920-h901)
 
 Add:
+
+To add an element, the handleRequest method is called again. The "/add" in the url leads us to the first else-if statement where a String array is created with the parameters after "?". The two parts are split by the "=" sign where the method will check if parameter[0] is "s". If so, parameter[1], the element to be added, is added into the ArrayList called listElement. The screen will print out a message notifying the user that their element has been added.
 
 ![SS2](https://lh3.googleusercontent.com/drive-viewer/AJc5JmR70wCYwj4Ls2sXCgxYoPLpGlcvtvqkOUXj4PIVj6lbQb4dAeGjqv467M31PkIMb9V24QHanjD6HXEg7g-wL3oEg3mXkA=w1920-h901)
 
