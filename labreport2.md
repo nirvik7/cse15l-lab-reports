@@ -67,3 +67,7 @@ Add:
 Query:
 
 ![SS3](https://lh3.googleusercontent.com/drive-viewer/AJc5JmQQlvExvXcIAan3mIVYSsW7UJ_e7IY5TqF1IT_DQOW6tBDhGnxVdV3-hjb8vqNbRp7cE0FGDpqqgjj8m6eoSYOGoRR0=w1920-h901)
+
+*Part 2:*
+
+
