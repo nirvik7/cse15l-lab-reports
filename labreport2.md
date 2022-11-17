@@ -13,6 +13,7 @@ class Handler implements URLHandler {
    
     int num = 0;
     ArrayList<String> engineList = new ArrayList<String>();
+    String finalOutput = "";
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
