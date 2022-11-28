@@ -4,57 +4,54 @@ __Lab 5 Report__
 DIR="./student-submission/"
 
 rm -rf $DIR
-git clone $1 $DIR
+git clone $1 $DIR -q
 
-echo -e "\n"
+echo -e "Code Grader \n"
 
 score=0
 MUSTFILE="ListExamples.java"
-MAXIMUMCREDIT=5
-SOURCETEST="TestListExamples.java"
-SOURCETESTEXEC="TestListExamples"
-## note here we use .. to go up one level to reach the lib folder
-CPATH=".:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar"
+TEST="TestListExamples.java"
+TESTEX="TestListExamples"
+CP=".:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar"
 
-# Checking the existance of the file
-if [ -f $DIRNAME$MUSTFILE ]
+# Checking if file exists
+if [ -f $DIR$MUSTFILE ]
 then
-    echo -e "The file" $MUSTFILE "in the directory " $DIR "is present [+1 point]"
-    ((score++))
-else 
-    echo -e "The file" $MUSTFILE "in the directory " $DIR "is not present [+0 points]"
-    echo "Final Grade: [$score/4]"
-    exit
-fi
-
-cp $SOURCETEST $DIRNAME
-cd $DIR
-javac -cp $CPATH *.java 2> compile-err.txt
-
-# Checking the compilation of the file
-if [ $? -eq 0 ]
-then
-    echo "The compilation of the directory" $DIR "was successfull [+1 point]"
-    ((score++))
-else 
-    echo "The compilation of the directory" $DIR "failed [+0 points]"
-    echo "Final Grade: [$score/4]"
-    exit
-fi
-
-java -cp $CPATH org.junit.runner.JUnitCore $SOURCETESTEXEC > test-err.txt
-
-# Checking the correctness of the file
-if [ $? -eq 0 ]
-then
-    echo "All the tests within" $SOURCETEST "were successfull [+1 point]"
-    # as we have 2 tests
+    echo -e "File is present! [+2 points]"
     ((score=score+2))
 else 
-    echo "Some the tests within" $SOURCETEST "were not successfull [+0 points]"
-    echo "Check test-err.txt for understanding"
-    grep -h "Failures" test-err.txt
+    echo -e "File was not found. [+0 points]"
+    echo "Final Grade: 0/10"
+    exit
 fi
 
-echo "Final Grade: [$score/4]"
+cp $TEST $DIR
+cd $DIR
+javac -cp $CP *.java 2> compile-err.txt
+
+# Checking compilation
+if [ $? -eq 0 ]
+then
+    echo "Compiled successfully! [+3 points]"
+    ((score=score+3))
+else 
+    echo "Failed to compile. [+0 points]"
+    echo "Final Grade: 2/10"
+    exit
+fi
+
+java -cp $CP org.junit.runner.JUnitCore $TESTEX > test-err.txt
+
+# Checking correctness
+if [ $? -eq 0 ]
+then
+    echo "All tests passed successfully! [+5 point]"
+    ((score=score+5))
+else 
+    echo "All tests were not successful... [+0 points]"
+    echo "Check test-err.txt for more"
+    grep -h "Failed Tests" test-err.txt
+fi
+
+echo "Final Grade: [$score/10]"
 ```
