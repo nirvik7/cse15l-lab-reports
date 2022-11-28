@@ -45,7 +45,7 @@ java -cp $CP org.junit.runner.JUnitCore $TESTEX > test-err.txt
 # Checking correctness
 if [ $? -eq 0 ]
 then
-    echo "All tests passed successfully! [+5 point]"
+    echo "All tests passed successfully! [+5 points]"
     ((score=score+5))
 else 
     echo "All tests were not successful... [+0 points]"
