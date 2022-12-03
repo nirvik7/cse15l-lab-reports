@@ -30,14 +30,15 @@ cebase<Esc>
 ```
 n
 ```
-We can move onto changing out all the entries by using "n" here where it is similar to the Ctrl+G shortcut. Move to the next start and go through the "cebase<Esc>" process until you're finished. You will need to do it 3 more times for a total of 4 start replaced with base. [24 key presses]
+We can move onto changing out all the entries by using "n" here where it is similar to the Ctrl+G shortcut. Move to the next start and go through the "cebase<Esc>" process until you're finished. You will need to do this 3 times for a total of 4 start replaced with base. [24 key presses]
   
 ![SS3](https://lh3.googleusercontent.com/drive-viewer/AFDK6gNlewHY81dUguZM0gnl3yY7Tlqc2v4TT-TFwtMitnOo3pSz92GfznGPj8bCm8YKDPApCRDRMKHnljZnHFIN8GEmddrDEQ=w1920-h853)
 
 ```
 :wq
 ```
-
+Finally, we can type ":wq" to (w)rite and save the file and (q)uit. We're done! [3 key presses]
+  
 ![SS4](https://lh3.googleusercontent.com/drive-viewer/AFDK6gOt3PyWgqqbBipmmx2DKnQkbVYSiI2q_EYWxlBuWsXHN8aetRpzcHzwgaGbFJGWzfR2M39wMFMyNxNpwwbbzRtm6DIf2w=w1920-h853)
 
 *Part 2:*
