@@ -44,6 +44,7 @@ Finally, we can type ":wq" to (w)rite and save the file and (q)uit. We're done! 
 *Part 2:*
   
 scp Time: 3:11
+  
 ssh Time: 1:42
 
-Report: Editing through vim in the remote SSH is the way to go as you can see just by the time it took. Having to scp every time a change is needed and constantly going in and out the server is something you would not want to go through. A small edit that just needs to be done once is okay for VS Code and scp, otherwise you should use vim in ssh, especially if there's major changes that need to happen. 
+REPORT: Editing through vim in the remote SSH is the way to go as you can see just by the time it took. Having to scp every time a change is needed and constantly going in and out the server is something you would not want to go through. A small edit that just needs to be done once is okay for VS Code and scp, otherwise you should use vim in ssh, especially if there's major changes that need to happen. 
