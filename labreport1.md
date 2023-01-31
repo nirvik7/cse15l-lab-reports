@@ -19,9 +19,9 @@ Unfortunately, my account did not work for some reason so I had to log in with a
 
 There are many commands that you can use in the terminal. Here are some simple ones to try, pictured is an example of cd and ls being used.
 
-cd: change directory, cd (name) will change to (name) directory while cd .. will take you back to the previous directory
-ls: list files in directory
-cat: displays file contents
-cp: copy files
+* cd: change directory, cd (name) will change to (name) directory while cd .. will take you back to the previous directory
+* ls: list files in directory
+* cat: displays file contents
+* cp: copy files
 
 ![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AAOQEOTCIN86eJ6l_csYh0MeXxDEGzVT-xdDGvVXgoteXP_bfebkxu5e5JTnYAukMiQmKKBflit6RMbvzvcw4dbkpdz4hxmA1w=w1920-h853)
