@@ -14,3 +14,14 @@ This part was easy for me as I didn't have to do anything! I already had VS Code
 Unfortunately, my account did not work for some reason so I had to log in with a TA account. In this step, you first open up a terminal and type "ssh" with your account email. Then, once prompted, you type "yes" to establish authentication. You should now be connected and your screen should look like this:
 
 ![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AAOQEOTCIN86eJ6l_csYh0MeXxDEGzVT-xdDGvVXgoteXP_bfebkxu5e5JTnYAukMiQmKKBflit6RMbvzvcw4dbkpdz4hxmA1w=w1920-h853)
+
+*Trying Some Commands*
+
+There are many commands that you can use in the terminal. Here are some simple ones to try, pictured is an example of cd and ls being used.
+
+cd: change directory, cd (name) will change to (name) directory while cd .. will take you back to the previous directory
+ls: list files in directory
+cat: displays file contents
+cp: copy files
+
+![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AAOQEOTCIN86eJ6l_csYh0MeXxDEGzVT-xdDGvVXgoteXP_bfebkxu5e5JTnYAukMiQmKKBflit6RMbvzvcw4dbkpdz4hxmA1w=w1920-h853)
