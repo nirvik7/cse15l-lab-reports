@@ -13,7 +13,7 @@ This part was easy for me as I didn't have to do anything! I already had VS Code
 
 Unfortunately, my account did not work for some reason so I had to log in with a TA account. In this step, you first open up a terminal and type "ssh" with your account email. Then, once prompted, you type "yes" to establish authentication. You should now be connected and your screen should look like this:
 
-![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AJc5JmSiqehA029C-L3mEcQlO7i8kXZxeog8LwSK7ND_5OLwA15B2PlN_x5kx_jLxxk64MO99D6c5JjMULxqr0S__pEvgCa6dg=w1920-h853)
+![Remote Connection](https://lh3.googleusercontent.com/drive-viewer/AAOQEORCR6X6WkAkFASk50gdLvFwAGFb-V6MfkhMjLcdRWSboUbyUuSqUzwBLFk2Cc_nHQQYA-c3l9IZBAl8DFsf_WVsh5EV-A=w1920-h853)
 
 *Trying Some Commands*
 
@@ -35,7 +35,7 @@ scp is a very useful command that securely copies files from your local computer
 - In the terminal, type "scp [fileName"] directory" to copy your java file to the remote server. I'm copying Server.java so I will type "scp Server.java cs15lfa22ta1@ieng6.ucsd.edu:~/".
 - Input your password and press enter. You've done it!
 
-![Moving Files](https://lh3.googleusercontent.com/drive-viewer/AJc5JmTI46VZJ-AaBqFJ0J2b1-uyq7sr-C6lnY9IzSTvFvkOXlWKYJEZnAoi4q4zqeg9Tk7rFHv-iWNkG0Dv1b4WdnH5XfjooA=w1920-h901)
+![Moving Files](https://lh3.googleusercontent.com/drive-viewer/AAOQEORCR6X6WkAkFASk50gdLvFwAGFb-V6MfkhMjLcdRWSboUbyUuSqUzwBLFk2Cc_nHQQYA-c3l9IZBAl8DFsf_WVsh5EV-A=w1920-h853)
 
 *Setting an SSH Key*
 
