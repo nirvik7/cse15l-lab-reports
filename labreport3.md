@@ -24,7 +24,7 @@ About seven miles west of downtown, lies the Península de Santiago, Manzanillo�
 The inland side of Ixtapa is marked by the 18-hole Club de Golf Ixtapa. Nearly everything in Ixtapa lies along the main boulevard, Paseo Ixtapa, which runs parallel to the hotel-lined main beach, Playa Palmar. This beach offers 41/2 km (3 miles) of beautiful white sand and deep azure waters. Even though the beach faces the open sea, there are several spots where offshore rocks and islands quiet the surf and make the waters suitable for swimming. The undertow here, however, is usually quite strong, and extreme caution should be taken. For a stunning view of this beach, ride the cable car to El Faro restaurant, located on the southern end of the beach, upstairs from the Pacifica Hotel. At the far end of Paseo Ixtapa lies Marina Ixtapa, with fine restaurants, private yacht slips, and the Marina Ixtapa Golf Course.
 Playa Linda is located 12km (8 miles) north of Ixtapa. This is a long beach with golden sands that seem to stretch endlessly to the north. It is the primary out-of-town beach, with water sports equipment rentals, fishing charters, and horseback riding. The ferry to Isla Ixtapa leaves from the jetty located on the southern end of Playa Linda.
 The Southern Coast to Puerto Angel
-
+```
 
 &nbsp;
 
@@ -63,228 +63,180 @@ non-fiction/OUP/Fletcher/ch9.txt:0
 
 *-v: invert matches, select non-matching lines*
 
-Example 1: In this example, I inverted matches for "whistle" on pmed.0020281.txt which is a text file about whistleblowing. This creates some interesting results as we can see the report without lines containing the main topic. 
+Example 1: In this example, I inverted matches for "Nepal" on a text file about Nepal. This creates some interesting results as we can see the report without lines containing the main topic. 
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -v "whistle" plos/pmed.0020281.txt
+[cs15lwi23ahk@ieng6-203]:written_2:165$ grep -v "Nepal" travel_guides/berlitz2/Nepal-WhereToGo.txt
 
 
 
 
-
-        Whistleblowers serve no function if they cannot tell their stories. The present story of
-        PLoS Medicine —that involves the pharmaceutical industry, pharmaceutical
-        benefit management corporations, the managed care industry, and the political and lobbying
-        forces that zealously guard their secrets could not have been told without the help of
-        courageous men and women [1, 2] For that reason, those of us who congregated in Washington,
-        D.C., on May 15th, 2005, at the invitation and support of the Public Library of Science and
-        the Government Accountability Project feel particularly humbled and grateful to these two
-        sponsors. Our convictions could not have been aired were it not for the essential First
-        Amendment work of responsible journalists, who exemplify the best in investigatory
-        research.
-        features. It is the face of children and adults who have been injured or killed by
-        misrepresented pharmaceuticals; clinical research trial results that have been sequestered
-        from the scientific community and whose incomplete findings cause injury; and
-        pharmaceuticals that are detailed to physicians, not to save lives or necessarily improve
-        the health or welfare of the recipients, but to make money.
-        passionate, and often successful, because our efforts have a different goal than the
-        corporations and political interests whose operations we occasionally challenge. Our goal
-        is to tell the truth. That honest effort is the source of any ethical difference we can or
-        assault of unprecedented odds against being heard put forth by that sum of political power,
-        expediency, and money.
-        improve the status quo—be it in pharmaceutical marketing or managed-care decision
-        making—cannot proceed or flourish without it.
-        Ralph Waldo Emerson, American essayist and philosopher (1803–1882), commented about
-        success (I have adapted his comments for all of us who gathered in Washington in mid-May
-        2005): “To leave the world a bit better, whether by a healthy child, a garden patch or a
-        redeemed social condition; to know even one life breathed easier because you have lived;
+Where to Go
+Second to the mountains are the cities, temples, and shrines of the Kathmandu Valley. Nowhere else on earth is there anything else quite like the valley’s architectural legacy, a fact recognized by Unesco in declaring much of the valley a cultural World Heritage Site to be cherished and protected for all mankind.
+Although they are so close to Kathmandu as almost to be suburbs, the sister cities of Patan and Bhaktapur each have a distinct character and unique attractions. For 300 years, until forcibly united in the late 18th century, they were separate kingdoms with related, but not always friendly, Malla rulers.
+Within and beyond the valley are many more sights worth taking in on day trips, including viewpoints on the valley’s rim from where you can see the Himalayas at sunrise and sunset, particularly recommended if you are not planning to go trekking.
+Kathmandu
+The sights, sounds, and smells of old Kathmandu bombard the senses. The center of the capital is a kaleidoscope of golden rooftops, multicolored costumes, steep temple steps layered with wares like market shelves, country women hawking produce spread on the streets, sari-draped matrons placing flower petals on altars to grimacing gods, the sudden eruption of a band of musicians or a herd of goats across your path, the scent of marigold garlands and of dumplings fried in oil, the constant jangling of bicycle bells and rickshaw horns. It’s all too much to take in at once.        
+Begin with an organized tour of the city or engage a guide through a travel agency. Sort out the main features and then return on your own for a closer, calmer look. Streets don’t have actual names but are instead referred to by the name of the neighborhood through which they are passing, thus streets change name about every block in some parts of the old city. Luckily, throughout old Kathmandu, there are now signposts to let you know what neighborhood or square you are in, so with the help of a good map you can orient yourself by a few major landmarks. Finding hidden gems down narrow lanes and dark alleys is one of the great rewards of exploring Kathmandu on foot. Organized tours rarely penetrate these corners. Assuming a minimum of stops for shopping, the following walking tour will take a very full half day.
+The best way to start this walking tour is to get a cycle rickshaw or taxi to take you to Durbar Square. Don’t get too concerned if you seem to be following a very roundabout route; one-way streets often make getting from point A to point B in Kathmandu a circuitous experience.
+The Licchavi kings founded the city as Kantipur in the eighth century and laid the foundations of the Hanuman Dhoka Durbar, the palace which gives this area its name. The present compound was begun by Malla kings in the 1500s and enlarged by Prithvi Narayan Shah after 1768. The building stands in the heart of a living museum of Malla dynasty architecture.
+Flanking the brick palace with its broad-lintelled, latticed windows and nine-story tower is the raised brick square of Basantapur Chowk, where the royal elephants were once kept and where curio dealers now spread their wares. “Freak Street,” leading off this square, was once the hub of Kathmandu’s hippie scene. Today it is still lined with cheap restaurants and guest houses and shops full of local handicrafts and jewelry. Freak Street is no longer Kathmandu’s hub for the backpacking crowd; today’s budget travelers seem to be willing to spend a bit more than their hippie predecessors did.
+At the far end of this plaza stands the Kumari Bahal, the house of the living goddess, which was built for the Kumari in 1757 and is guarded by painted lions with long wavy hippie-style hair. The courtyard of the three-story building can be visited and, if enough rupees are collected, the Kumari herself may appear briefly at a beautifully carved upstairs window.
+Directly across from the Kumari Bahal stands the incongruous white Grecian facade of a palace wing that was built in 1908 by Prime Minister Chandra Shumshere, a Rana responsible for the Singha Durbar and many of the city’s neoclassical edifices.
+Continue past the high pagoda Vishnu temple, guarded by a splendid kneeling Garuda, to the Kasthamandap. The word, which means “House of Wood,” may have given Kathmandu its name. This building is a rather squat 17th-century structure said to have been made from the wood of a single tree. Inside, pigeons peck at rice grains left as offerings to an image of guru Gorakhnath that is encrusted with carmine powder.
+To one side of the Kasthamandap is a small, shiny, brass-roofed shrine dedicated to the elephant-headed Hindu god Ganesh. A procession of men and women line up here in the morning to make offerings to Ganesh. Worshippers will touch a pillar of the shrine or reach up to sound the bells hanging from the low roof. Ringing bells at temples is a way of telling the god to pay attention to a prayer.
+Turning back into Durbar Square, climb the nine steep steps of the central Maju Deval pagoda to Shiva for a view over the palace and its surrounding temples. The broad steps are a favorite spot for reading and loafing in the sun. From this vantage point you can enjoy the charming sight of Shiva and his wife Parvati in painted wood looking amiably out of an upper window of the adjoining house-style temple. Just beyond is the great bell, which used to be rung to call the populace for important announcements, and, a little further along, a pair of huge drums. The drums are now thumped once a year to mark the sacrifices of water buffalo during the Dasain festival in October.
+There are something like 50 temples and shrines, great and small, in the immediate vicinity of Hanuman Dhoka Palace. The palace, which now serves primarily as a museum, takes its name from the red-cloaked figure of the monkey god Hanuman that stands to the left of the main palace entrance. This stone statue was erected in 1672 and stands atop a squat pillar. The statue’s face is entirely obscured by red paste that is smeared on by worshippers. Tour guides say the red paste is to spare Hanuman the sight of the goings-on — more acrobatic than erotic — carved on the struts of the small Jaganath Temple opposite.
+In the palace wall beyond the Hanuman statue and protected by a wooden fence is a poem etched in stone in 15 languages dated 14 January 1664. It is attributed to King Pratap Malla, reputed to be a great linguist.
+The palace itself is still used for the coronation of kings and for observance of religious rituals by the royal family. Like most other national museums it opens at 10:30am and is closed on Tuesdays. Just inside the entrance is a remarkable sculpture (1673) in black stone of Vishnu as Narsimha, the man-lion, disembowelling the demon Haranyakashipu with the relish of a workman opening his lunchbox.
+The inner courtyard, the Nasal Chowk, is one of the few that can be visited. It has curious and fine carved struts as well as door ornamentation. Binoculars are great for isolating such works of art from their busy surroundings and for appreciating the details of craftsmanship.
+From here you can climb to the top of the Basantapur Tower and look down on the rooftops of Old Kathmandu. One wing of the palace houses a museum devoted to kings Tribhuvan, Mahendra, and Birendra. This museum is like a walk-in scrapbook, with framed snapshots, newspaper clippings, and memorabilia, such as King Tribhuvan’s goldfish tank, bicycle, and record player.
+Back in Durbar Square, pigeons swirl constantly around one of Kathmandu’s most colorful shrines, the Kala (Black) Bhairav. This is Shiva in his “destroyer” outfit, fanged and bedecked with skulls. The image acted as a sort of ancient lie detector, as it was said that anyone failing to tell the truth before it would bleed to death. Suspected criminals were brought here to force them to confess. However, the chocolate-faced god is quite gaily decorated in hues of red, yellow, and blue, and his round, white-circled eyes look more startled than fierce. Nearby, behind a screened window, is the Seto (White) Bhairav, a gold-lacquered face through which beer spurts for scrambling devotees during Indra Jatra.
+Adjoining the palace is the magnificent temple dedicated in 1564 by King Mahendra Malla to Taleju. Only the royal family prays here. It is enclosed by a wall with a gaudy gate that is opened to the public once a year during the Dasain festival. The three-tiered brick pagoda has gilded roofing, is topped by a golden bell-shaped cupola, and is decorated under the eaves by a fringe of wind chimes. It stands on a raised platform, its profile stately against the sky.
+Beyond the Taleju temple begins a famous narrow diagonal street of shops, open-air markets, and shrines most typical of Old Kathmandu. It is so crowded with humanity, on foot and on assorted wheels, and is crammed with so many fascinating things for sale, that one risks overlooking the significant monuments along the way.
+The next major junction, Asan Tole, is larger and even busier than the ones preceding. Here is the heart of Old Kathmandu, the rice market and collection point for porters looking for jobs. You have to thread your way through heaps of vegetables and fruit sold by farm wives sitting cross-legged on the ground, all the while side-stepping cows browsing on vegetable leaves.
+From Asan Tole make a sharp left into the back-street, past tea shops, and continue until the next main intersection. On your left, in the wall of the corner house, thousands of nails have been hammered into a piece of wood under a small image of Vaisha Dev, the toothache god. In case this remedy doesn’t ease the pain, several street-level dentists and denture shops have set up close by.
+Turn right at this intersection, and then left where two lions flank a passage leading to a striking white Buddhist stupa in a large courtyard. This is the Kathesimbhu temple, built in the mid-17th century in the style of Swayambhunath (see page 42) as a service to devotees physically unable to climb up to that hilltop shrine. There are several masterpieces of sculpture here, as well as a bahal, or monastery, one of 120 tucked away in courtyards of the city.
+At this point, continuing to Thahiti Tole, where there is another small stupa, you can walk north to the main intersection of Thamel, Kathmandu’s lively, fast-spreading center for budget-conscious tourists. Guest houses, restaurants, curio vendors, rug shops, trekking agencies, bicycle and motorcycle rental stands, and bookshops line the way. Some guest houses have pleasant gardens, and most are clean and quite inexpensive, though in recent years more expensive hotels have also opened in this neighborhood. Many low-budget guest houses have bulletin boards where trekkers leave messages for friends or advertise for trekking companions.
+In the middle of this square basin of water, connected to the shore of the pond by a bridge, stands a small white Shiva temple on an island. This temple is only opened once a year, and for this reason, the entire pond is surrounded by a substantial fence. The Rani Pokhari lies at the northern end of a large open space that divides the old city from the newer districts. This space includes the Ratna Park and Tundikhel parade ground, where soldiers can sometimes be seen. Toward the south end of the open space is the Bhimsen Tower, a useful landmark visible from many parts of Kathmandu.
+From the Rani Pokhari, carefully cross the wide avenue known as Kantipath, which is lined with numerous public buildings, including a hospital and former palaces of the Ranas. Today this is one of the most congested streets in Kathmandu, and the exhaust fumes from trucks, tuk-tuks, and buses can be overwhelming. Once across the avenue, you can dive back into Old Kathmandu and within a block reach Asan Tole, through which you passed earlier and from where you can retrace your steps back to Durbar Square. Alternatively, you can head north up Kantipath, take the first left and then, after a bit of zigging and zagging, take the second right to find yourself heading back into Thamel.
+Kathmandu Environs
+Crowning a hilltop about 3 km (2 miles) west of the city center, the 2,000-year-old Buddhist shrine of Swayambhunath can be seen from all over the valley. A taxi can take you almost to the very top of the hill, but it is more interesting to follow the pilgrims’ route and climb the 365 steps that lead up through a wooded park filled with monkeys. The lower stairs are lined with vendors selling small, carved mani stones (prayer stones) made for the tourist market. Higher up, the stairs become much steeper and are lined with stone statues of animals and birds.
+At the summit is one of the oldest stupas in the world, an immense white mound surmounted by a golden cube, on the four sides of which are the astonishing all-seeing eyes of Buddha. Above this rises a tower of 13 diminishing golden disks symbolizing the 13 steps to enlightenment, then a golden royal parasol topped by a bell-shaped crown. Strings of prayer flags stretch from the tower’s pinnacle, and around the base are hundreds of small prayer wheels. While pilgrims circumambulate the stupa, monkeys, dogs, and pigeons clamber about and forage for scraps of food offerings in small altars set in the foundation.
+Adjacent to this temple, within a cage to prevent their theft, are two images alternately described as the White Tara and the Green Tara (Buddhist deities) and as Ganga and Jamuna (Hindu deities). A bronze peacock accompanies these two figures. There is a small forest of white chaitya shrines behind the Hariti Devi temple, and a porch to one side where pilgrims congregate to prepare meals in offering for the goddess.
+On the north side of the stupa, a Tibetan monastery is open to visitors. At 4pm the monks can be observed at prayer, blowing the groaning horns and banging drums and cymbals in a red and gold chapel. At sunset, when the burnished gold atop the stupa begins to glow with a warm buttery light, the terrace surrounding Swayambhunath offers a fine view over the Kathmandu Valley.
+On the road back to town, stop at the National Museum to admire its small but select collection of art and artifacts. Here are Licchavi stone reliefs of Shiva and Parvati from the fifth and sixth centuries, the classical period of sculpture. Figures are slimmer and more graceful than the more common balloon-breasted models of the Mallas. A lovely eighth-century Birth of Buddha is curiously reminiscent of Christian nativity scenes. A great Bhairav urn and a comical terra-cotta Ganesh are noteworthy. There’s also a separate wing that holds a collection of Buddhist iconography. The historical wing is filled with ancient weapons, including a leather cannon that must have given gunners a few anxious moments.
+Where Swayambhunath is cluttered with monuments in different styles, at Boudhanath there are no other temples to distract pilgrims. There are, however, dozens of shops specializing in Tibetan antiques and other Tibetan souvenirs. Pilgrims coming from Tibet, as well as local refugees, supply the shops that ring the stupa with the city’s best selection of Tibetan antiques. There are also shops filled with bronze Buddhist statuary, silver ornaments, prayer wheels, and brass “singing bowls.”
+Patan (Lalitpur)
+Although it was once an independent kingdom, Patan is today separate from Kathmandu in name only. The Bagmati River runs between the two cities, but there is little to distinguish one side of the river from the other. At least, that’s how it seems as you cross the bridge between the two cities and pass through the Pulchowk and Kupondole sections of the city. These districts are home to modern hotels, the offices of numerous international aid organizations and other non-governmental organizations (NGOs), and the homes of many expatriots from around the world. However, beyond modern Patan lies the old part of the city, where traditional Newari craftsmanship is readily apparent. Here it is easy to see why this city is also known as Lalitpur (Beautiful City).
+Opposite the door to the Sundari Chowk stands a stone Krishna temple built in the Indian shikara style. Beside this temple is a huge bell that has no rope (its clapper is swung by hand). To the right of this temple, on a tall column, is a gilded image of King Yoganarendra Malla (1684–1705) seated on a throne, unperturbed by a hooded cobra hovering over him. Atop this cobra is a bronze bird like those found on the corners of temple roofs. This king once told his people that as long as such birds did not fly away, his spirit would remain in the valley.
+To the right of the Krishna Mandir stands the pagoda-style Shiva Temple, which has erotic carvings at the base of its roof struts. Beyond is the Bhimsen Temple, a pagoda dedicated to the patron god of merchants (dear to Newari shopkeepers). To the left of the Krishna Mandir stands the Charnarayan Temple, which is believed to be the oldest temple on the square and which also has erotic carvings on its roof struts.
+Leaving the square on the lane that begins at the back of the Bhimsen Temple and following the street around to the right will bring you to the Golden Temple, or Kwa Bahal, a Buddhist monastery founded in the 11th century. Two painted lions mark the entrance. Inside, the monastery surrounds a sunken courtyard with an exquisite golden shrine in the center, backed by a pagoda temple decorated with episodes from the life of Buddha. Flanking the steps leading to the courtyard and standing on statues of tortoises are two bronze elephants with praying riders on their backs. On the upturned roof corners of the shimmering golden shrine stand bronze birds.
+From the Golden Temple, continue descending the narrow lane and you will come to temple complex dominated by a five-tiered pagoda, the Kumbheshwar Temple, which is dedicated to Shiva and dates to 1392. Two ponds in the temple compound are said to be fed by waters from the holy Gosainkund Lake high in the Himalayas. During summer, thousands of devotees come to bathe in these ponds beneath a richly ornamented Shiva lingam.
+The alleys of Patan lead to a succession of half-hidden temples and shrines of great beauty and interest. One of the most impressive of these is the Mahaboudha, or Temple of the Thousand Buddhas, which was erected in the 16th century. Designed after the temple at Bodh Gaya in India where Buddha reached enlightenment, this soaring spire boasts an image of Buddha on each one of its bricks. Extensively damaged during the 1934 earthquake, it was later reconstructed.
+The road from Kathmandu to Patan passes an Ashoka stupa (one of four in Patan) and brings you to Jawalakhel and the Tibetan Cooperative. Founded in 1960 with Swiss assistance for Tibetan refugees, this center makes and sells carpets. In surrounding buildings the process of carding, washing, spinning, and dyeing the wool, then weaving the carpets, can be followed from start to finish. Quality of carpets is judged by the number of knots per square inch: 60, 80, or (superlative) 100. Profits of the cooperative go to support schools and help handicapped and aged Tibetan refugees.  
+At the nearby Patan Industrial Estate, Newari craftsmen can be watched carving windows and door frames for reconstruction projects or boxes for the tourist trade. They use the same tools and methods as their ancestors, and demonstrate the same skills. So do the bronze-workers, who cast figurines by the ancient “lost wax” method. These artisans are not faking antiques; they are continuing traditions.
+Bhaktapur (Bhadgaon)
+Bhaktapur lies 16 km (10 miles) east of the center of Kathmandu. Bhaktapur means “City of Devotees,” and this could today be taken to mean devotion to the old ways, for Bhaktapur is even more medieval than Old Kathmandu or Patan. Exploring its narrow streets, you’ll come upon squares filled with pottery drying in the sun and potters working at their hand-spun wheels, weavers at their looms, and wood-carvers at work on window frames. Artists with the finest of brushes paint the minutely detailed religious paintings called thangkas. These are widely sold, but the best come from Bhaktapur. Newari families also still work the fields that come right to the city’s edge.
+Bhaktapur’s treasures are many, and if time permits you will be amply rewarded by allowing two half-days to wandering through its alleys.
+A Taleju Temple, which is located through the Golden Gate at the far end of two courtyards, is closed to non-Hindus, but you can admire the carving on its door and get a peek past the attendant soldier to the ornate interior.
+The art museum adjoining the Palace of 55 Windows contains a collection of antique thangkas and sculpture in wood and stone. At the far end of the royal mall is a shikara-style Durga Temple, interesting for the pairs of animals guarding the stairs.
+A short street of shops descending from the far corner of the square, behind a 15th-century replica of the Pashupatinath temple (see page 45), leads to Taumadi Tole. This square is dominated by Bhaktapur’s most famous monument, the Nyatapola Temple, which was consecrated in 1702 and is both the valley’s tallest temple and one of only three five-tiered pagodas in the valley. The pagoda’s 108 painted struts support the five tiled roofs. Beginning with a pair of burly, mustachioed Malla wrestlers, the staircase leading up to the temple is lined with animal guardians; at each ascending level, the animals are ten times stronger than those on the level below. This sequence would indicate that the temple’s occupant, the tantric goddess Siddhi Laxmi, is extremely powerful.
+Facing the temple is the three-story Cafe Nyatapola, with balconies from which diners can admire the Nyatapola Temple and take in the market activities on the square below. Also on this square is the Bhairavnath Temple. This is the home of a small Bhairav idol that is paraded through Bhaktapur in a chariot during the New Year’s Bisket festival.
+Duck through a low passage between two shops across the street to find the Til Mahadev Narayan Temple. It stands in an un-touristy rubble-filled square where there are families washing, goats looking out of upstairs windows, and, behind a grill in a small kiosk, a lingam much venerated by older women, who keep it covered with flowers.
+Bhaktapur expanded over the centuries from a nucleus around the Tachupal Tole, reached by a walk from the Nyatapola Temple through narrow streets full of unfamiliar merchandise: the lengths of red yarn are sold to be plaited in women’s hair; the gray cannonballs are homemade soap, the conical yellowish cigarettes are bidi, the cheapest tobacco, and can be bought singly. There will be heaps of orange turmeric, cardamom, ginger, and other spices, and bundles of dried fish, looking like twigs. Pan sellers offer to mix lime, spices, and bits of nuts and tobacco in a fresh betel-leaf packet for chewing. Bigger leaves stuck together with bamboo toothpicks are sold as plates for temple offerings.
+Many of the old houses around Tachupal Tole have been very carefully restored. At one end is the Dattatreya Temple, used impartially by Buddhists and Hindus. Two large wrestlers, symbolic of the first Malla, a strongman, flank the open porch of this structure, and a gilded Garuda kneels on a column above. In an alley just off the square is the famous Peacock Window of intricately carved wood; the window is part of the Pujari Math, a former priest’s house that now houses the National Woodworking Museum.
+KathmanduValley
+Farmland begins at the very edge of the cities, and the fields are full of activity whatever the season. Rice needs lots of water, so the paddy (the shoots are grown from seed) is transplanted when the June rains flood the fields. This is a job for the women, who work in lines to space the young plants in neat rows. In summer the rice forms a green velvety blanket, then turns golden in autumn when it ripens and is harvested. This brings out the whole valley in force, everyone bending low with small sickles to cut the stalks, then stacking these in sheaves for fuel or thatch after the rice is threshed. Then the grain is dried in the sun, covering the squares and streets of villages, and is winnowed by tossing it in the air from round trays. Fields of yellow mustard are grown for oil-seed. Wheat is planted as a winter crop in the paddies, and garden plots supply maize, chilies, and vegetables.
+Another winter crop is bricks. The topsoil is neatly set aside, the clay beneath is dug out for brick-making, and the fertile black earth is then replaced. Bricks fired on the spot are the valley’s main building material.
+The ruminative buffalo pulls plows and carts, then wallows in the mud of a village pond. Chickens run in and out of doorways and often may be seen peering out from roosts on the second floor of houses. Under the eaves, bundles of maize hang to dry along with large cucumbers. Pumpkin vines climb over rooftops.
+Saturday is a good day to visit Dakshinkali (a 45-minute drive from Kathmandu to the southern end of the valley), when thousands of pilgrims bring chickens and goats to sacrifice to Kali. Sacrifices also take place on Tuesday.
+The shrine is at the bottom of a shady glen by a brook. Carrying their offerings by the feet (incidentally, only male animals may be sacrificed), women form a line on one side and men on the other. The altar where the blood will be spilled is out of sight, behind a wall where a loudspeaker screeches hymns to Kali. Under a bridge, a cauldron bubbles. Decapitated fowl are chucked in to speed the plucking and goats are seared to remove the hair. The offal is thrown into the stream.
+Along the banks, barbecues convert the sacrifices into lunch. Some picnickers say they’re doing the animal a favor, giving it a chance of a better reincarnation. A thriving souvenir market lines the path to the parking lot.
+On the way back toward Kathmandu, the village of Pharping deserves a stop. It has many beautifully carved windows in mud brick houses that are gently crumbling away. A path leads uphill to two Tibetan monasteries and a temple to the Bajra Yogini, a local deity, guarded by bronze lions.      
+Beyond Pharping and just off the main road lies Chobar Gorge, through which flows the Bagmati River. Legend holds that this gorge was created by the saber of Manjushri (see page 15). It is indeed scarcely wider than a sword slash, crossed by a miniature iron suspension bridge brought from Scotland and portered in at the turn of the century. Below, the Jal Binayak temple to Ganesh stands by the rocks where women do laundry and children dive, while a funeral ghat stands mercifully downstream from these activities. On the wall here, you’ll see what appears to be the Star of David. This is a Hindu emblem of two superimposed triangles, the up-pointing one denoting the male force, the other the female. A bronze rat, Ganesh’s companion, fronts the temple, looking like a dachshund. A cement factory belching smoke is a regrettable addition to this corner of the valley.    
+Off the road back to the capital lies the valley’s fourth most important town, Kirtipur. King Prithvi Narayan Shah had difficulty conquering Kirtipur, whose site atop a ridge with two high points made it virtually impregnable. When he finally succeeded, after a prolonged siege and heavy losses, he punished the local population by cutting off the noses and lips of all men — except those who played wind instruments.
+In the middle of the town is the Bagh Bhairav Temple, under the eaves of which are swords and shields from the 18th-century siege. From the restored Uma Maheshwar Temple at the highest point, there is a fine view of the valley and two stone elephants with spikes on their backs to prevent kids from playing mahout. Instead, the kids will probably be found playing “Goats and Tigers,” a favorite national game that can be marked out in chalk on the ground and played with pebbles, or on attractive brass boards with carved pieces. Girls like to play jacks with pebbles as well. Popular, too, is the game of caroms, played by flicking checkers on a square board with corner pockets.
+The highest peak on the valley’s rim is Pulchowki, at 2,762 m (9,062 ft), a half-day trip beyond Patan through verdant scenery rising to the attractive village of Godavari. The road up Pulchowki is gravel or worse much of the way, and is only driveable during the dry season. The hiking trail takes a good three hours, passing through rhododendrons, orchids, and laurel. At the top, the breathtaking mountain view on a clear morning sweeps from Everest to the Annapurnas.
+Godavari’s Royal Botanical Gardens at the foot of the mountain has an orchid collection, lovely trees, and a brook. It is a favorite haunt of bulbuls, babblers, and minivets, as well as those who understand this language — bird-watchers. A hundred species of butterfly have been identified here, and as many different birds.
+Other country roads running south from Patan pass two- and three-story narrow brick houses bunched close together in the Newari fashion. A stroll through any of these hamlets, Bungamati, Thecho, or Chapagaon, will provide intimate glimpses of country life. Stroll with care, however — the back paths are heavily fertilized by humans as well as by animals.
+Thimi, on the road from Kathmandu to Bhaktapur, is where papier-mâché masks are made and sold. On this road, too, are attractive pottery flowerpots in the shape of elephants and other creatures. Thimi’s streets often become open-air kilns, when pots are fired beneath smoldering rice straw. Festivals in these villages, if you can find the right day and hour, are even more riotous and welcoming than those in the cities.
+The road north from Kathmandu leads 8 km (5 miles) to Budhanilkantha, and a giant statue of Vishnu reclining on a bed of snakes. Carved from one black stone and set in a sunken tank of water, the 5-m (16-ft) image dates from the seventh century. Legend has it that as Vishnu floated partly submerged in the primeval ocean, a lotus grew out of his navel, issuing Brahma, whose sole task was to create the world. The king cannot visit this shrine, as to look upon what is considered to be an image of himself, an incarnation of Vishnu, would be a forecast of death. On festival days worshippers blanket the statue with flowers. Beyond is Shivapuri Watershed and Wildlife Preserve, good place for a day hike.
+If there is any one spot outside the cities that is a must, it is Changu Narayan. The oldest temple in the valley and unquestionably one of the most interesting, it sits on an isolated hilltop a few miles north of Bhaktapur and just south of the Sankhu road. The drive from Bhaktapur cuts across paddies and climbs past thickets of bamboo to the ridge top. A misty morning makes the scene even more evocative of the past.
+Beyond the Valley
+Nagarkot, Dhulikhel, and Kodari
+From Kathmandu, short trips to the valley rim make it possible for those with limited time to see the high mountains at sunrise or sunset.        
+Nagarkot, which stands on the crest of a ridge at 2,195 m (7,200 ft), is about an hour’s drive from Bhaktapur and one of the best places in the Kathmandu area for viewing the Himalayas. From this aerie on the rim of the Kathmandu Valley, 322 km (200 miles) of the Himalayas stretch out before you in an immense wall of rock and ice. Although there are excellent views from the many lodges and hotels here, the view is even better from a nearby observation tower, which can be reached in about an hour’s walk from Nagarkot. From this observation tower, it is possible to see as far as Mount Everest. Most visitors come for the sunrise or sunset on the mountains, and though the weather is often at its clearest in the early morning, low clouds and fog often obstruct the view.
+The Kathmandu area’s other popular mountain-viewing spot is the village of Dhulikhel, which has a view very similar to that from Nagarkot and is a bit easier to reach, since it is on the main highway to Tibet. This highway passes through Banepa, where you can turn off to visit Panauti. The buildings here have great artistic and historic importance and for this reason have become the focus of a French-funded restoration project. Today, this out-of-the-way village offers a fascinating glimpse into the Kathmandu Valley’s small-town life. Dhulikhel, on the other hand, is strictly about mountain views. Here there are several attractive hotels, including one with tropical gardens, that cater to visitors hoping to catch a glimpse of the Himalayas at sunrise or sunset. At dawn and dusk, the otherwise perfectly spectacular mountains are made just that much more breathtaking as they are painted in shades of lavender and pink by the rising and setting sun.
+Pokhara and Gorkha
+Chitwan, Lumbini, and the Terai
+Once the private hunting ground of royalty and their guests, Chitwan became a national park in 1973 and has been designated by Unesco as a World Heritage Site. Royal Chitwan National Park is 932 sq km (358 sq miles) of magnificent first-growth trees — the tall hardwood sal, the kapok “silk-cotton” tree, and the flame-of- the-forest with their spectacular crimson February flowers, plus ferns, bamboo, and huge vines that choke trees to death like pythons. And there are real pythons, too. White-ruffed langur monkeys leap and swing in the treetops, sending flights of green parakeets screeching. In open glades, peacocks preen, and shy, tiny barking deer, no taller than the peacocks, race away at an intruder’s approach. It’s a magical environment.
+The best way to see the wildlife, and certainly the most fun, is swaying atop a silently padding elephant. The elephant grass along the several rivers in the park is so tall that only from an elephant’s back can you spot rhinos, deer, and other creatures, most of which are used to seeing elephants and do not run from them. With luck, you’ll see a leopard draped indolently on a tree branch, and perhaps a stately sambar stag. In winter, the gaur, the world’s largest wild ox, almost 2 m (6 ft) high at the shoulder, comes out of its hideaway in the Siwalik Hills on the park’s southern edge in search of young grass. Spotted deer, sloth bear, giant flying squirrels, and civet cats are among the other mammals the visitor may see.
+There are several jungle lodges and tented camps within the park’s boundaries, and from any of these camps there is a very high likelihood that you will see rhinos and deer. Tigers, leopards, and sloth bears are a bit more elusive. All of these lodges, and even some outside the park, have their own elephants and nature guides. On a stay at one of these lodges, a half day is usually spent in dug-out canoes searching for endangered gharials, a narrow jawed fish-eating crocodile, and their flesh-eating cousins, the huge marsh muggers. However, these canoe rides actually focus on the more visible bird life along the river banks — egrets, ducks, storks, kingfishers, eagles, and scores of other fascinating birds. The rare, almost sightless Gangetic dolphin may even come up for a blow alongside your canoe if you are extremely lucky. At day’s end, lodge guests compare notes around the bar. At least one evening during a stay, men from a nearby Tharu village will perform their traditional martial arts-like stick dance.
+Along the park boundary and especially at Sauraha near park headquarters, dozens of lodges and inexpensive guest houses cater to budget-minded tourists. Elephant rides, jeep tours, and canoe trips can all be arranged at the park entrance, where an interesting interpretive center provides a history of the area and information about its ecology. One is reminded that in 1938, during a safari arranged for the British Viceroy of India, hundreds of elephants took part in a hunt that bagged 120 tigers, 38 rhinos, and 27 leopards. Today, hundreds of soldiers are stationed in the park to keep out poachers.
+Package tours, with two or three nights in or near the park, are widely offered by travel agencies in Kathmandu. You can fly to an airstrip near the park in half an hour, go by car or tourist bus in about six hours, or spend a day or two paddling the rapids of the Trisuli River en route.    
+A visit to Lumbini, birthplace of Gautama Buddha, can also be made in about three hours from Chitwan. (There are also flights from Kathmandu to Bhairawa, the nearest airfield, with a bus service to Lumbini.) The story goes that Buddha’s mother gave birth to him under a tree in a garden at Lumbini, unable to get back in time to the palace, some 20 km (12 miles) away. Marking the spot is a pillar commemorating the visit in 250 b.c. of the Indian emperor Ashoka, a zealous convert to Buddhism. Buddhist pilgrims from all over the world come to Lumbini, and in recent years the site has been developed into an international cultural and religious park with several hotels and numerous Buddhist temples built by the world’s various Buddhist countries.
+Although few tourists stray from the Kathmandu-Pokhara-Chitwan focal points, it is possible to see something of the undeveloped west without walking three weeks to get there. There are now several lodges at Royal Bardia National Park on the Karnali River. This park was created specifically as a preserve for tigers, which, with a little luck, can be seen here more easily than at Chitwan National Park. Elephant rides, jungle walks and drives, river rafting, and bird-watching keep visitors busy. The Karnali gorge above Chisopani is especially beautiful and is noted for the size of the fighting mahseer carp taken by sport fishermen.
 ```
 
 
-Example 2: Here, I inverted matches for "AIDS" in pmed.0010010.txt which deals with HIV/AIDS. The -v command could be useful in this case if you want matches about just the HIV stage rather than including AIDS.
+Example 2: Here, I inverted matches for "gold" in a text file about California's history. The -v command could be useful in this case if you don't want to keep hearing about the gold rush.
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -v "AIDS" plos/pmed.0010010.txt
-
-  
+[cs15lwi23ahk@ieng6-203]:written_2:166$ grep -v "gold" travel_guides/berlitz2/California-History.txt
 
 
 
-        through the confusion about what was making people so sick, and each new day brought a new
-        discovery about the disease and its consequences. I went through that evolutionary process
-        along with everybody else, and it shaped me in many profound ways. Before long, I
-        recognized that this wasn't a disease of “those people over there.” This was a disease that
-        could strike anyone, anytime. And as physicians, we had to adjust our thinking about our
-        own vulnerability to occupational risk, and to emphasize prevention, because there wasn't
-        going to be a cure for a long, long while. And not only physicians had to rethink
-        epidemic was going to go, absent an effective vaccine or cure, but few of us could have
-        imagined that it would evolve so quickly without an end in sight. While the people of
-        epidemic is far from being under control on that continent and is spreading through other
-        parts of the world with alarming speed.
 
+A Brief History
+The first wave of California immigrants arrived somewhere between 20,000 and 35,000 years ago — wandering Asiatic tribes who entered the American continent via the Bering Strait, which at that time was dry land, or perhaps covered in ice. In the succeeding centuries, their descendants continued to push south and east, and eventually spread out to people the whole of the continent from Alaska to Patagonia. The tribes who decided to settle in what is now California were fortunate in their choice of homeland. The climate was very pleasant, and food was sufficiently plentiful for them to avoid the constant warfare that plagued many tribes elsewhere in the Americas.
+The Indian tribes lived in harmony with nature. Anticipating 1960s flower children seeking drug-induced enlightenment, medicine men drank the juice of the jimson weed to provoke revelatory hallucinations. However, not even their wildest visions prepared them for the arrival of bearded men armed with swords and crossbows, in whose wake the Indian population plummeted from a peak of 275,000 to a mere 16,000 at the start of the 20th century.
+The Spanish Missions
+In 1579 England’s Francis Drake, during the round-the-world trip that earned him his knighthood, took a break from harrying Spanish treasure galleons and stopped for repairs at Point Reyes (Drake’s Bay, just north of San Francisco). He claimed the whole coastal territory for Queen Elizabeth I, but England was being kept busy with other concerns and no attempt was made to settle the new territory.
+In 1769 the Spanish began to settle in California, establishing a string of military garrisons (presidios) and religious missions. The first was built in San Diego in 1769, and then in 1770 Monterey was founded as capital of Alta (Upper) California. The long peninsula of Baja (Lower) California remained separate and ultimately became part of Mexico.
+These early missionaries, who were led by the Franciscan friar Junípero Serra, were all tough and courageous men, who faced hunger and hardship when their first agricultural efforts failed. Their plan was to convert the Native Americans to Christianity, teach them European farming methods as well as other skills and crafts, and then return the land to them before moving on to set up another mission somewhere else.
+The missionaries remained active well into the 19th century, and encouraged Spanish settlers by establishing California’s first towns, the pueblos. By 1804 they had created a chain of 21 missions that stretched all the way from San Diego north to Sonoma.
+Two notable localities were first settled during this period. In 1776 a presidio and a mission were built near the mouth of the beautiful bay discovered by Gaspar de Portolá in 1769 — it was named the Misión San Francisco de Asís.
+The first two pueblos to be founded were the Pueblo de San Jose de Guadalupe, near San Francisco, and, in the south, El Pueblo de Nuestra Señora la Reina de los Angeles del Río de Porciúncula — “The Town of Our Lady the Queen of the Angels by the River Porciúncula.” Founded in 1781 with a total of 46 inhabitants, most of whom were Native Americans, its name was mercifully shortened over time to — you guessed it — Los Angeles.
+At this time, California was not considered a particularly attractive proposition by its Spanish overlords. Distracted by the Napoleonic wars raging in Europe, they finally abandoned the territory when Mexico declared its independence in 1821.
+The Mexicans
+As far as California was concerned, the Mexican takeover was practically bloodless. In fact, California’s 26 years of rather loose Mexican administration (1822–1848) were characterized by a series of bloodless revolutions. The governorship at Monterey changed hands 11 times in a period of five years, not counting three governors whom Mexico City had dared to impose and whose authority was then completely ignored. There was some half-hearted fighting between northerners and southerners for control of the property and lands left by the Spanish missionaries, half of which was meant to be returned to the Native Americans but never was.
+California grew into a territory with just one industry — cattle ranching, for the sale of cowhide and tallow. In the meantime, the old crafts were abandoned and California started to earn a reputation as a place of leisure.
+The American Pioneers
+The first Americans to come to California from the eastern states were Boston fur traders taking the Cape Horn route at the end of the 18th century. They didn’t stay for long, but gradually other traders and fur trappers began to arrive overland through Utah, Nevada, Arizona, and New Mexico, settling only in small numbers until the famous covered wagons began their heroic treks of the 1840s. The hardships the pioneers suffered in the Sierra Nevada mountains, Death Valley, and the Mojave Desert became the stuff of California legend, the most tragic being the fate of 87 pioneers who set out from Illinois in 1846. While attempting to cross the Sierra Nevada, George Donner’s wagon train became snowed in, and from November until February was stuck high in the mountains north of Lake Tahoe, at a point now known as the Donner Pass. Just 47 people survived, and then only by resorting to cannibalism.
+The Gold Rush
+By 1852, at the peak of the mining boom, there were over 100,000 prospectors in the region, all fiercely individualistic, working away at their personal, private stakes rather than banding together in organized syndicates.
+Statehood
+The early years of statehood were marked by a rough-and-ready kind of justice. In the absence of a well-established judiciary or organized police force, law and order was enforced by vigilantes, and summary hanging was the usual sentence.
+The Chinese arrived in the wake of the great Taiping Rebellion of 1851, seeking security and prosperity in what they were told were California’s “Golden Mountains.” They suffered both exploitation by Chinese entrepreneurs, who used them as indentured labor, and discriminatory taxation by the state legislature. The worst-treated, however, were the Native Americans, whose numbers dwindled rapidly not only as a result of disease and malnutrition but also because of systematic massacres in the 1850s by Californian militia.
+In 1859 the discovery of silver (the Comstock Lode in western Nevada) caused a Silver Rush in the reverse direction, with the mining being organized almost completely from California. As the state’s economy expanded, its major priority became a transcontinental railway to connect it to the eastern markets. Engineer Theodore Judah defied all the experts by plotting a railway link between Sacramento and the East, passing right through the heart of the Sierra Nevada and the Rocky mountains. He managed to sell his idea to a San Francisco consortium that became known as the Central Pacific’s “Big Four” — Mark Hopkins, Collis Huntington, Charles Crocker, and Leland Stanford, names that continue to echo in both the streets and institutions of present-day California.
+The railroad project transformed the Big Four’s personal assets of $100,000 in 1861 into a fortune of $200 million. The line, which linked up with the Union Pacific at Promontory, Utah, in 1869, was built under the most hazardous conditions, using poorly paid Chinese laborers who sometimes worked suspended in wicker baskets over sheer cliffs to hack a tenuous cutting through the steep passes of the Sierras.
+The Great Earthquake
+The earthquake and fire together caused 452 deaths, according to official estimates, but the imposition of martial law by Mayor Schmitz (without authorization) resulted in up to 100 more dead in summary executions for looting or refusing to help the firefighters. The performance of the military was less than exemplary — as Chinatown burned, it was looted by the National Guardsmen sent to protect it.
+Reform, Progress, and Oil
+The San Francisco earthquake helped to focus the nation’s attention on the graft and corruption that ran right through the heart of California society. The federal prosecution succeeded in jailing only a handful of the principals involved, but the publicity was enough to make the concept of “reform” a popular one.
+The reform movement, intent on breaking the political power of the big corporations, attacked corrupt practices in administration, public finances, and banking, but did nothing to oppose the businessmen’s traditional resistance to unions and more liberal labor laws. There was also a campaign of official discrimination against Chinese and Japanese immigrants, excluding them from owning land and preventing further immigration.
+Sunny, oil-rich Los Angeles was therefore the perfect place for the car to emerge as an everyday household accessory. From 1920 to 1930 L.A.’s population more than doubled, and the number of private cars increased fivefold. Noting the central position of the “pursuit of happiness” in America’s Declaration of Independence, the Los Angeles Times asked in 1926: “How can one pursue happiness by any swifter and surer means than by the use of the automobile?”
+Hollywood
+If you didn’t feel like pursuing happiness in a car, you could sit in the dark and dream about it in the cinema instead. The booming popularity of this new entertainment form meant that the film production companies, based originally in the East, had to find a place where they could shoot outdoors for 52 weeks a year. They finally settled in a suburb of Los Angeles, Hollywood, where there was guaranteed sunshine all the year round plus — within easy reach of the new studios — deserts and mountains as well as beaches, rivers, forests, and islands which could double for the Wild West, the Holy Land, the Mediterranean — wherever.
+Hollywood soon became a mecca for dreamers. Somewhat dubious “talent schools” sprang up, catering to small-town girls who hoped to emulate film stars such as Mary Pickford. If they didn’t make it as actresses, the “schools” turned them into call girls for the producers, and in 1922 the lurid rape trial of comic Fatty Arbuckle highlighted Hollywood’s decadent lifestyle of fast cars, bootleg whisky, and drugs. The immediate reaction was the imposition of the Hays Office code of morals, which decreed that in all Hollywood films sin must be punished — it could be shown in detail, but it must always be punished.
+The industry cashed in on the boom years of the 1920s. Hollywood Boulevard introduced lavishly exotic Chinese and Egyptian-style movie palaces, and film stars built homes to match in Beverly Hills, the most famous being the Pickfair mansion, a hunting lodge which Douglas Fairbanks and Mary Pickford turned into a honeymoon estate. However, in spite of the glamour, Hollywood’s rather seedy image persisted. Boarding houses in Los Angeles sometimes advertised “Rooms for rent — no dogs or actors allowed.”
+Depression and Boom
+The Great Depression hit California hard. Income from agriculture dropped by 50 percent between 1929 and 1932, and one-fifth of the state’s population was on public relief. California managed to weather the downturn better than the rest of the country, however, and became a magnet for dispossessed refugees from the Dustbowl of the Midwest. “Okies,” as they were known, packed their families and belongings into rickety cars and trucks to make the epic voyage west to find work in the farms and orchards of California. Their tale of hardship, pride, bitterness, and exploitation is graphically recorded in the Pulitzer Prize–winning novel The Grapes of Wrath, by California writer John Steinbeck.
+Then came World War II, bringing with it an enormous boom for the state’s beleaguered economy, with the United States federal government spending $35 billion in California. Overnight, ships and planes became the state’s most important products. Manufacturers such as Douglas, Lockheed, and Northrop were all located in the Los Angeles area.
+In the post-war period California continued to prosper. Agriculture grew up into agribusiness; the film industry expanded into the new field of television; the aircraft industry was boosted by the space program; and semiconductor technology paved the way for Silicon Valley.
 
-        The Crisis of Human Resources
-        Over the past few years, it has become increasingly apparent that a critical component of
-        assuring access to care and treatment is human capital. Like fiscal capital, human
-        evidence of this critical need in every country we visited. The miracles of modern science
-        are meaningless without systems and people to deliver them to those in need.
-        The World Health Organization estimates that of the 40 million people worldwide infected
-        with HIV, 6 million need immediate, life-sustaining antiretroviral therapy. Fewer than
-        400,000 people in developing countries have access to such treatment (Figure 1) [1,2].
-        There are too few skilled health care workers to provide reliable delivery and
-        administration of these life-saving therapies. According to a recent Institute of Medicine
-        report, and a study sponsored by the US Agency for International Development, the number of
-        health care workers in many African countries is actually shrinking as they are lured to
-        developed countries by better pay and professional opportunities (Box 1) [2,3]. Reversing
-        this brain drain is essential over the long-term, as HIV treatment and care will be
-        required for decades. In the short-term, the Institute of Medicine called for expanded
-        efforts “to bring qualified volunteer initiative medical professionals into both urban and
-        rural areas to support prevention, care, and training programs” [2]. I could not agree more
-        that addressing the human resource needs will be essential as we move forward—and not just
-        It has now been shown, beyond any doubt, that even in resource-poor countries with the
-        most basic health infrastructure, people get the same benefit from treatment and prevention
-        interventions as those in the rich world [4]. In fact, surveys in Cape Town, Kampala,
-        Khayelitsha, and Senegal found rates of adherence to antiretroviral therapy of 90%–94%,
-        compared with estimates of 70% in developed countries [5,6,7].
-
-
-        When You Have Seen the Faces
-        We hear the numbers—the millions upon millions infected—and we grow numb. That is why we
-        must go to the front lines—the households and communities—and start focusing on each
-        raining, and we were waiting outside with our umbrellas. A 12-year-old girl in front of me
-        turned around and leaned her head against my belly and said, “Could you take me to America?
-        I need drugs.” If you take that girl's face and multiply it a thousand times—that is the
-        memory I bring home from Africa: the faces of the children and their asking, “Why are so
-        many of our parents dying? Why are we dying?”
-        We visited a US Centers for Disease Control and Prevention (CDC) program in the very
-        remote areas of Uganda where there are no roads and it is impossible for people to come
-        into population centers to receive HIV testing and other services. Young staff from the CDC
-        are working with Ugandans and community organizations in that area to deliver
-        antiretroviral therapy. Some may think that the difficulties of delivering antiretroviral
-        therapy into such a remote area are overwhelming—and some may question whether this is a
-        sustainable intervention. But once you see firsthand what miracles are possible, your world
-        view changes almost overnight.
-        What we saw was the success of a wonderful home-based treatment and care program for
-        people who don't have access through other means. And when I say “home-based care,” picture
-        a hut without running water or electricity, where only motorcycles are available to deliver
-        medications. The first step of the program is to provide clean water. Coliforms and other
-        pathogens in the water supply for the household are removed through an inexpensive water
-        vessel fitted with a filter and through a chlorination process. In addition, a
-        cotrimoxazole tablet is given every day, which, in one patient's words, changed his life
-        because he began to feel well almost immediately. Not only do the cotrimoxazole prophylaxis
-        and the water treatment improve diarrheal illness, but malarial parasitemia also drops. So
-        that is a very positive, unexpected consequence of just two very simple and inexpensive
-        tuberculosis therapy in addition to cotrimoxazole. As a result, they begin to feel better
-        even before they begin antiretroviral therapy.
-        We spent time with one of the patients in the home-based care program. As she began to
-        participate in these programs, tests became available to measure her CD4 count. She
-        explained to me what her CD4 count was, what it meant, and how it improved when she started
-        the cotrimoxazole and tuberculosis therapy. She had begun taking three antiretroviral drugs
-        and held up her pill box to explain her regimen in detail. Every week a Ugandan health aide
-        delivered her supply of pills on a CDC motorcycle and monitored her adherence to the
-        treatment. Not only was she extremely reliable in taking her medications, but she also knew
-        more about them and their side effects than most of the patients I treated at San Francisco
-        General. She was also an expert in HIV prevention. I asked her, “What do you do to protect
-        your three young sons from this infection?” She replied, “Every day I take them by the
-        hand, and I go out of the house and I say, ‘Do you see that mound of dirt? That is your
-        father’s grave. Your father acquired this fatal infection through sex. Be careful.'” And
-        then she talks to them about the “ABCs” (“A” for abstinence, “B” for being faithful, “C”
-        for condoms).
-        So when you see a story like that unfold in the middle of Africa, it's impossible not to
-        be hopeful. And yet, it's also very sobering because we are reminded of our responsibility.
-        The question is not what the international health community is accomplishing in these
-        countries now, but what we could accomplish if we joined together to really fight this war
-        comes from taking on one problem and can see the way that effort can expand to encompass
-        and address a much greater set of problems.
-
-
-        Beyond ABCs—Diagnosis and Responsibility
-        When we think about successful prevention models in Uganda, “ABC” certainly stands out
-        [8]. However, at this point in the epidemic curve, other letters must also be considered.
-        Most HIV transmission is accounted for by infected people having risky sex with uninfected
-        people. Both in the US and in Africa, studies show that most infected people engaging in
-        risky sex are unaware of their infection status, and that when their infection is
-        diagnosed, they usually take steps to protect the others with whom they are having contact
-        [9,10,11,12]. So let's add the letter “D” for diagnosis. In fact, improving efforts to help
-        people choose risk avoidance and to diagnose those who are already infected is the
-        cornerstone of the CDC's new domestic HIV prevention strategy. Diagnosis is extremely
-        important in many African communities, especially where the number of discordant
-        couples—where one individual is infected and the other is not—is high. Sadly, many couples
-        “being faithful” now do not realize that one partner is already infected and are not being
-        reached with diagnostic testing programs. So “ABCD” is a concept that I would like to put
-        out on the table as food for thought. Of course, there is another letter that we need to
-        stress: the letter “R,” for responsibility: personal sexual responsibility is a critical
-        component of HIV prevention. Many women and girls become infected after being raped by men
-        or because their social circumstances rob them of the power to refuse sex. Men must be held
-        accountable for greater sexual responsibility and for ending sexual violence and
-        degradation of women and girls. HIV prevention programs need to emphasize responsibility,
-        but not lose sight of the fact that responsibility can be practiced only with personal
-        autonomy, which many women and girls simply do not have.
-
-
-        Expanding the Team to Meet the Needs
-        epidemic. The purchase of antiretroviral drugs for Africans is not the big challenge.
-        Access to drugs will improve in Africa. The real challenges are delivering drugs in a safe
-        and effective way, monitoring therapy, and sustaining the pipeline of drugs so that ongoing
-        treatment can be guaranteed. In the example of the home-based program in Uganda, we have
-        seen that these challenges can be overcome. Expanding access to prevention, care, and
-        treatment services isn't going to be easy, but it is certainly possible. It will take
-        unprecedented commitment by people in the public sector, the private sector, faith
-        communities, and community organizations, and perhaps most importantly, individual
-        volunteers who make up their minds to contribute in any way they can.
-        Last fall, the US Peace Corps announced that it was activating programs in some
-        Relief will provide $15 billion, including almost $10 billion in new funds, over five years
-        making this plan happen. I look forward to learning from others in the global health
-        community how we can best expand our impact and collectively find a way to support the
-        delivery of prevention messages and life-saving medications to everyone in Africa—and
-        especially to that little girl at the Kenyan clinic who touched my heart.
+Beatniks, Hippies, and Modern Times
+True to the tradition of California’s indulgence of utopian dreams, the Beat generation of the 1950s made its home in San Francisco’s North Beach district. Writers such as Jack Kerouac and Allen Ginsberg, as well as the poets that hung round Lawrence Ferlinghetti’s City Lights Bookstore, advocated a free and unstructured style of writing, exemplified by Jack Kerouac’s cult novel On the Road.
+Ten years on, the term “hippies” was coined for the flower children who gathered around the Haight-Ashbury district of San Francisco. These inhabitants of what Joan Didion was to call “America’s first teenage slum” dispensed a vision of love, peace, and light, heavily laced with marijuana and more dangerous drugs, such as LSD. The sixties also produced a distinctive brand of rock music, with bands such as the Grateful Dead and Jefferson Airplane, and the legendary voice of Janis Joplin.
+California was also in the forefront of student radicalism, beginning with the Free Speech Movement at Berkeley in 1964, and ending with the violent clashes at San Francisco State University in 1968 and the 1969 Berkeley demonstration in favor of a “People’s Park,” when protesters were sprayed with tear gas.
+Black radicalism accelerated after the Watts riots in Los Angeles in 1965 and reached its peak with the Black Panthers in Oakland, a paramilitary organization led by Huey Newton, Eldridge Cleaver, and Bobby Seale. The Watts riots were sinisterly echoed in the Los Angeles riots of 1992, when the same area of South-Central L.A. was ravaged by violence in response to the acquittal of white police officers who were captured on videotape beating a black resident.
+America’s continuous social revolution has always had a prominent place in California life. Pressures for some kind of change have been alternately encouraged and resisted as the state’s volatile political establishment has swung back and forth between conservatives and progressives. Ronald Reagan, a staunch Republican and former Hollywood actor, served as governor of California between 1966 and 1974 and as president of the United States from 1980 to 1988. He was succeeded as governor of California by Jerry Brown, known to many as “Governor Moonbeam.” A left-wing Democrat who espoused Zen Buddhism and the legalization of marijuana, he also imposed environmental protection measures and energy resources long before others began to see the wisdom of such policies. In his current incarnation, Brown is the mayor of Oakland, California.
+Recent earthquakes — one in San Francisco in 1989 and another that hit Los Angeles in 1994 — have served as reminders that Californians continue to live in the shadow of The Big One — the major earthquake that experts predict will strike in the next 30 years. It says a lot for the attractions of life in California — and the optimism of those who continue to enjoy it — that despite this dire prediction, millions of people still seek their future in the Golden State’s promised land.
 ```
 
-Example 3: In any case where you're searching about dementia but forgot you're searching about dementia (maybe you should get that checked), you might have inverted the matches for dementia by running ```grep grep -v "dementia" plos/pmed.0020275.txt```
+&nbsp;
+
+*-i: ignore case*
+
+Example 1: Here we can use the -i command to ignore case when searching for "Madrid" in Puerto Rico's history. 
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -v "dementia" plos/pmed.0020275.txt
+[cs15lwi23ahk@ieng6-203]:written_2:156$ grep -i "madrid" travel_guides/berlitz2/PuertoRico-History.txt
+For Spain the 19th century was a bitter slide from imperial might to the status of a has-been. By the early 1800s independence movements had overthrown Spanish rule in most of the Western Hemisphere. Madrid’s most important remaining possessions were the island colonies of Cuba and Puerto Rico, both of which were chafing under the yoke of colonial rule and the bitter system of slavery. To squash subversive ideas about independence in Puerto Rico, Madrid imposed ruthless military control. The most memorable incident occurred in 1868 in the mountain town of Lares, when government forces crushed an uprising of secessionists, killing or jailing the insurgents, and many innocent victims. The event is remembered as El Grito de Lares (the cry of Lares).
+The colonial government could not, however, hold back the tide of change sweeping the Caribbean. In 1872, one momentous decree abolished the 350-year-old institution of slavery in Puerto Rico, and in 1897 Spain cut the colonial ties and finally granted the island autonomy. The long dream of independence seemed to have come true. But eight months after Madrid had authorized home rule for Puerto Rico, American troops arrived to take it away.
+```
 
-  
 
+Example 2: In this example, we use the -i command to search for "southern" in the Vallarta file. Now although this word is conventially spelled in all lowercase, it's very likely find it at the start of many sentences in which case, the starting S will be capitalized. As such, we do not want to miss out on those cases in our search results so the -i command is very helpful for us. 
 
-
-        Dementia remains an incurable condition and its increasing prevalence is a deeply
-        worrying aspect of the “graying” of the population. An important question for researchers
-        location to another. Incidence studies are particularly valuable for less biased comparison
-        of disease occurrence, as well as being essential for policy makers. Many biases can,
-        however, be introduced in such studies. Dropout and mortality are particular reasons for
-        concern.
-        Authors have frequently attempted to assess whether rates in a given study are similar to
-        those obtained elsewhere. However, variations between studies in the methodology employed
-        make such comparisons unreliable. Where within-country variations in incidence have been
-        noted, as has happened in the US, they have often been ascribed to methodological
-        differences, but one cannot be certain whether this is the case.
-        Risk factors for other chronic disorders common in old age (notably cardiovascular
-        disease and cancers) do vary in their prevalence between and within countries. In the UK,
-        for example, the incidence of stroke is known to vary considerably across the country. A
-        were better controlled. One way to test this hypothesis is to compare sites with known
-        variation in vascular risk to assess whether there is also variation in the incidence of
-        The Medical Research Council Cognitive Function and Ageing Study (MRC CFAS) is a
-        multi-site, population-based study in the UK of individuals aged 65 years and over living
-        in the community, including institutions. Diverse sites have been chosen, with varying
-        employed, with the waves two years apart. A standard set of instruments for the diagnosis
-        using likelihood-based methods to compare the first two waves of interviews.
-        from 6.7 per 1,000 person years at age 65–69 years to 68.5 per 1,000 person years at age 85
-        England and Wales each year. However, there was no convincing evidence of variation across
-        sites, and the incidence rates do not reflect the variations in the prevalence of possible
-        risk factors in these sites. We therefore cannot assume that action to reduce vascular risk
-        Another issue addressed by the study is previous suggestions in the literature that
-        respondents in these age groups in previous studies made it impossible to test this
-        hypothesis. The CFAS, however, found no evidence of any such tailing off in incidence,
-        which also has implications for policy and planning.
-        The CFAS is important because it provides the first multi-site comparison of incidence
-        rates in ethnically homogeneous populations within a country, and within Europe, using
-        identical methodology across sites. The methodological approach developed for the study
-        in other chronic disease studies involving a two-phase selection process.
+```
+[cs15lwi23ahk@ieng6-203]:written_2:159$ grep -i "southern" travel_guides/berlitz2/Vallarta-WhereToGo.txt
+Yelapa and the Southern Beaches
+About seven miles west of downtown, lies the Península de Santiago, Manzanillo’s best known landmark. For many travelers, this town is synonymous with the famed all-white world of Las Hadas (“the Fairies”) and its adjoining golf course. Set on a southern promontory of Santiago Peninsula, Las Hadas gazes across Manzanillo Bay to the town, but is a world apart in character. Its Moorish architecture, which looks something like a setting for Arabian Nights, became renown as the place where Bo Derek showed her appreciation for Ravel’s bolero in the movie Ten. Las Hadas was built in the 1970s by the Bolivian tin multimillionaire Antinor Patiño as a private, super-exclusive resort and a respite from Acapulco’s excessive glitz. Its presence spawned construction up and down the adjoining beaches, making Santiago Peninsula the most desirable address in town, especially for visitors to Manzanillo.
+The inland side of Ixtapa is marked by the 18-hole Club de Golf Ixtapa. Nearly everything in Ixtapa lies along the main boulevard, Paseo Ixtapa, which runs parallel to the hotel-lined main beach, Playa Palmar. This beach offers 41/2 km (3 miles) of beautiful white sand and deep azure waters. Even though the beach faces the open sea, there are several spots where offshore rocks and islands quiet the surf and make the waters suitable for swimming. The undertow here, however, is usually quite strong, and extreme caution should be taken. For a stunning view of this beach, ride the cable car to El Faro restaurant, located on the southern end of the beach, upstairs from the Pacifica Hotel. At the far end of Paseo Ixtapa lies Marina Ixtapa, with fine restaurants, private yacht slips, and the Marina Ixtapa Golf Course.
+Playa Linda is located 12km (8 miles) north of Ixtapa. This is a long beach with golden sands that seem to stretch endlessly to the north. It is the primary out-of-town beach, with water sports equipment rentals, fishing charters, and horseback riding. The ferry to Isla Ixtapa leaves from the jetty located on the southern end of Playa Linda.
+The Southern Coast to Puerto Angel
 ```
 
 &nbsp;
