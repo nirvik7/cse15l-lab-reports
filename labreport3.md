@@ -1,6 +1,6 @@
 __Lab 3 Report__
 
-I chose to do my lab report on the grep command using https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+I chose to do my lab report on the grep command using [https://www.geeksforgeeks.org/grep-command-in-unixlinux/]
 
 &nbsp;
 
