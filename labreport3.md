@@ -1,17 +1,17 @@
 __Lab 3 Report__
 
-I chose to do my lab report on the grep command.
+I chose to do my lab report on the grep command using [https://www.geeksforgeeks.org/grep-command-in-unixlinux/]
 
 &nbsp;
 
 *-i: ignore case*
 
-Example 1: Here we can use the -i command to ignore case when searching for "Osama bin Laden" in 9/11 reports. Although the proper casing for his name is Osama bin Laden, there are many cases of the b in his name being capitalized. The -i command can be used to great effect here as we can search for his name ignoring casing. 
+Example 1: Here we can use the -i command to ignore case when searching for "Madrid" in Puerto Rico's history. 
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -i "osama bin laden" 911report/*
-911report/chapter-13.3.txt:            93. ABC News interview, "Terror Suspect: An Interview with Osama Bin Laden," Dec. 22,
+[cs15lwi23ahk@ieng6-203]:written_2:156$ grep -i "madrid" travel_guides/berlitz2/PuertoRico-History.txt
+For Spain the 19th century was a bitter slide from imperial might to the status of a has-been. By the early 1800s independence movements had overthrown Spanish rule in most of the Western Hemisphere. Madrid’s most important remaining possessions were the island colonies of Cuba and Puerto Rico, both of which were chafing under the yoke of colonial rule and the bitter system of slavery. To squash subversive ideas about independence in Puerto Rico, Madrid imposed ruthless military control. The most memorable incident occurred in 1868 in the mountain town of Lares, when government forces crushed an uprising of secessionists, killing or jailing the insurgents, and many innocent victims. The event is remembered as El Grito de Lares (the cry of Lares).
+The colonial government could not, however, hold back the tide of change sweeping the Caribbean. In 1872, one momentous decree abolished the 350-year-old institution of slavery in Puerto Rico, and in 1897 Spain cut the colonial ties and finally granted the island autonomy. The long dream of independence seemed to have come true. But eight months after Madrid had authorized home rule for Puerto Rico, American troops arrived to take it away.
 ```
 
 
