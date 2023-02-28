@@ -15,107 +15,47 @@ The colonial government could not, however, hold back the tide of change sweepin
 ```
 
 
-Example 2: In this example, we use the -i command to search for "nevirapine" in the medical text files. Now although this word is conventially spelled in all lowercase, it's one of the two main topics of this report. This means that we will likely find it at the start of many sentences in which case, the starting N will be capitalized. As such, we do not want to miss out on those cases in our search results so the -i command is very helpful for us. 
+Example 2: In this example, we use the -i command to search for "southern" in the Vallarta file. Now although this word is conventially spelled in all lowercase, it's very likely find it at the start of many sentences in which case, the starting N will be capitalized. As such, we do not want to miss out on those cases in our search results so the -i command is very helpful for us. 
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -i "nevirapine" plos/pmed*
-plos/pmed.0010030.txt:        Nevirapine and efavirenz are the most commonly prescribed of the class of antiretroviral
-plos/pmed.0010030.txt:        1253–1263), it appeared to be only marginally superior to nevirapine in terms of clinical
-plos/pmed.0010030.txt:        nevirapine and efavirenz both raise high-density lipoprotein (HDL) cholesterol (the “good”
-plos/pmed.0010030.txt:        type of cholesterol), the overall lipid profile is better with nevirapine than with    
-plos/pmed.0010030.txt:        “These data suggest that nevirapine may be preferable to efavirenz in HIV-infected     
-plos/pmed.0010030.txt:        were then randomized into three treatment groups: nevirapine, efavirenz, or both.      
-plos/pmed.0010030.txt:        nevirapine and efavirenz groups (417 and 289 patients, respectively). This was because the
-plos/pmed.0010030.txt:        2NN study showed that simultaneous use of nevirapine and efavirenz should be avoided—the
-plos/pmed.0010030.txt:        in HDL cholesterol was significantly higher with nevirapine than with efavirenz. There was
-plos/pmed.0010030.txt:        a decrease in the ratio of total cholesterol to HDL cholesterol with nevirapine and an 
-plos/pmed.0010030.txt:        (especially nevirapine) actually leads to a reduction in coronary heart disease. “There are
-plos/pmed.0010030.txt:        The study was funded by Boehringer Ingelheim, the manufacturer of nevirapine. The
-```
+[cs15lwi23ahk@ieng6-203]:written_2:159$ grep -i "southern" travel_guides/berlitz2/Vallarta-WhereToGo.txt
+Yelapa and the Southern Beaches
+About seven miles west of downtown, lies the Península de Santiago, Manzanillo’s best known landmark. For many travelers, this town is synonymous with the famed all-white world of Las Hadas (“the Fairies”) and its adjoining golf course. Set on a southern promontory of Santiago Peninsula, Las Hadas gazes across Manzanillo Bay to the town, but is a world apart in character. Its Moorish architecture, which looks something like a setting for Arabian Nights, became renown as the place where Bo Derek showed her appreciation for Ravel’s bolero in the movie Ten. Las Hadas was built in the 1970s by the Bolivian tin multimillionaire Antinor Patiño as a private, super-exclusive resort and a respite from Acapulco’s excessive glitz. Its presence spawned construction up and down the adjoining beaches, making Santiago Peninsula the most desirable address in town, especially for visitors to Manzanillo.
+The inland side of Ixtapa is marked by the 18-hole Club de Golf Ixtapa. Nearly everything in Ixtapa lies along the main boulevard, Paseo Ixtapa, which runs parallel to the hotel-lined main beach, Playa Palmar. This beach offers 41/2 km (3 miles) of beautiful white sand and deep azure waters. Even though the beach faces the open sea, there are several spots where offshore rocks and islands quiet the surf and make the waters suitable for swimming. The undertow here, however, is usually quite strong, and extreme caution should be taken. For a stunning view of this beach, ride the cable car to El Faro restaurant, located on the southern end of the beach, upstairs from the Pacifica Hotel. At the far end of Paseo Ixtapa lies Marina Ixtapa, with fine restaurants, private yacht slips, and the Marina Ixtapa Golf Course.
+Playa Linda is located 12km (8 miles) north of Ixtapa. This is a long beach with golden sands that seem to stretch endlessly to the north. It is the primary out-of-town beach, with water sports equipment rentals, fishing charters, and horseback riding. The ferry to Isla Ixtapa leaves from the jetty located on the southern end of Playa Linda.
+The Southern Coast to Puerto Angel
 
-Example 3: This one isn't that interesting. I wanted to see how many times the word "aids" would be intermixed with the disease "AIDS" but on the evidence of this search, it seems that it's a pretty rare occurrence amounting to a grand total of 0 times. 
-
-```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -i "aids" plos/pmed.001*
-plos/pmed.0010010.txt:        As an intern, I took care of the first patients with HIV/AIDS at San Francisco General
-plos/pmed.0010010.txt:        Hospital, and so I grew up with AIDS in the early days of my medical career. We struggled
-plos/pmed.0010010.txt:        things—AIDS has reshaped society's very notions of the most basic human behaviors.     
-plos/pmed.0010010.txt:        I was in Uganda in 1985, early in the AIDS epidemic there. We knew then where that     
-plos/pmed.0010010.txt:        Africa have achieved a huge amount in tackling HIV/AIDS, particularly in Uganda, the   
-plos/pmed.0010010.txt:        The theme of this year's International AIDS Conference in Bangkok was “Access for All.”
-plos/pmed.0010010.txt:        resources are essential to ending the AIDS pandemic. I visited Africa with US Health and
-plos/pmed.0010010.txt:        Human Services Secretary Tommy Thompson and many AIDS experts last December, and we saw
-plos/pmed.0010010.txt:        for HIV/AIDS programs, but for all aspects of public health and health care.
-plos/pmed.0010010.txt:        individual living with HIV. I was at the dedication of an AIDS clinic in Kenya. It was 
-plos/pmed.0010010.txt:        interventions. Many patients with HIV/AIDS in Africa also have tuberculosis and are put on
-plos/pmed.0010010.txt:        on AIDS. Such a story also inspires hope because you can see the multiplier effect that
-plos/pmed.0010010.txt:        The innovative programs and ideas emerging in Africa can change the picture of the AIDS
-plos/pmed.0010010.txt:        countries that allow volunteers to help communities fight the AIDS epidemic, but this is
-plos/pmed.0010010.txt:        just one of many steps that are being taken. The US president's Emergency Plan for AIDS
-plos/pmed.0010010.txt:        for international AIDS assistance [13], and I am part of the team that is charged with 
-plos/pmed.0010029.txt:        essential aids in guiding the distribution of limited funds to lower the burden of life
-plos/pmed.0010034.txt:        description of the Acquired Immune Deficiency Syndrome (AIDS) in 1981 [5].
-plos/pmed.0010036.txt:        acute phase of infection in humans and animals exposed to AIDS-associated retroviruses 
-plos/pmed.0010036.txt:          3 /y. Comparison with data from the Multicenter AIDS Cohort Study
-plos/pmed.0010036.txt:        therapeutic AIDS vaccine designed to retard disease progression rather than prevent    
-plos/pmed.0010041.txt:        The devastating effects of HIV infection worldwide are reason enough for AIDS
-plos/pmed.0010061.txt:        sleep aids than are currently available, with profound implications for improved public
-plos/pmed.0010070.txt:        remain obstacles in the way of turning HIV/AIDS into a manageable chronic disease.     
-plos/pmed.0010071.txt:        affordable prophylactics and drugs for HIV/AIDS, tuberculosis, and malaria.
-plos/pmed.0010071.txt:        considering the combined burden of HIV/AIDS, tuberculosis, and malaria, it is important to
-```
 
 &nbsp;
 
 *-c: match count*
 
-Example 1: Going off one of the previous examples, we can use the -c command here to count the matches for "Osama" in the 9/11 reports. We can see matches in just 3 files amounting to just 9 total matches, which is a bit surprising. That gives me an idea...
+Example 1: Here we can use -c to count matches for "water" in the Abernathy text docs.
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -c "Osama" 911report/*
-911report/chapter-1.txt:0
-911report/chapter-10.txt:0
-911report/chapter-11.txt:0
-911report/chapter-12.txt:0
-911report/chapter-13.1.txt:0
-911report/chapter-13.2.txt:0
-911report/chapter-13.3.txt:2
-911report/chapter-13.4.txt:5
-911report/chapter-13.5.txt:0
-911report/chapter-2.txt:0
-911report/chapter-3.txt:0
-911report/chapter-5.txt:0
-911report/chapter-6.txt:0
-911report/chapter-7.txt:2
-911report/chapter-8.txt:0
-911report/chapter-9.txt:0
+[cs15lwi23ahk@ieng6-203]: written_2:160$ grep -c "water" non-fiction/OUP/Abernathy/*
+non-fiction/OUP/Abernathy/ch1.txt:0
+non-fiction/OUP/Abernathy/ch14.txt:0
+non-fiction/OUP/Abernathy/ch15.txt:0
+non-fiction/OUP/Abernathy/ch2.txt:3
+non-fiction/OUP/Abernathy/ch3.txt:0
+non-fiction/OUP/Abernathy/ch6.txt:0
+non-fiction/OUP/Abernathy/ch7.txt:0
+non-fiction/OUP/Abernathy/ch8.txt:2
+non-fiction/OUP/Abernathy/ch9.txt:1
 ```
 
 
-Example 2: Here, we can see a significantly higher number of matches by counting for "bin Laden" instead of "Osama" in the 9/11 reports. That being said, my questions have not stopped. Practically all of the matches are found in 13.3 (36!) and other files have lost their matches. Did the other files refer to him by just his first name? I guess it must be.
+Example 2: Here, in an interesting twist from the previous example, we can use -c to count matches for "fire" in the Fletcher text docs.
 
 ```
-my_gr@NirvikLaptop MINGW64 ~/OneDrive/Documents/GitHub/skill-demo1/technical (main)
-$ grep -c "bin Laden" 911report/chapter*
-911report/chapter-1.txt:0
-911report/chapter-10.txt:0
-911report/chapter-11.txt:0
-911report/chapter-12.txt:0
-911report/chapter-13.1.txt:0
-911report/chapter-13.2.txt:0
-911report/chapter-13.3.txt:36
-911report/chapter-13.4.txt:1
-911report/chapter-13.5.txt:0
-911report/chapter-2.txt:0
-911report/chapter-3.txt:0
-911report/chapter-5.txt:0
-911report/chapter-6.txt:0
-911report/chapter-7.txt:0
-911report/chapter-8.txt:0
-911report/chapter-9.txt:0
+[cs15lwi23ahk@ieng6-203]: written_2:162$ grep -c "fire" non-fiction/OUP/Fletcher/*
+non-fiction/OUP/Fletcher/ch1.txt:1
+non-fiction/OUP/Fletcher/ch10.txt:0
+non-fiction/OUP/Fletcher/ch2.txt:2
+non-fiction/OUP/Fletcher/ch5.txt:1
+non-fiction/OUP/Fletcher/ch6.txt:1
+non-fiction/OUP/Fletcher/ch9.txt:0
 ```
 
 
