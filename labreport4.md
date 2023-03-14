@@ -1,12 +1,15 @@
 __Lab 4 Report__
 
-*Part 1:*
+*Step 4: Log into ieng6*
 
-Sequence of keys pressed to changing the name of the start parameter and its uses to base
+Keys pressed: 
 
 ```
 /star<Enter>cebase<Esc>ncebase<Esc>ncebase<Esc>ncebase<Esc>:wq
 ```
+
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+
 
 40 keys pressed total
 
