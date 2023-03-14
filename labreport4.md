@@ -5,7 +5,19 @@ __Lab 4 Report__
 Keys pressed: 
 
 ```
-/star<Enter>cebase<Esc>ncebase<Esc>ncebase<Esc>ncebase<Esc>:wq
+<Ctrl>+V
+```
+
+I had the ssh with cse email on my computer already so I simply copied it while in Google Chrome and then pasted it into the terminal.
+
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+
+*Step 5: Clone your fork of the repository from your Github account*
+
+Keys pressed: 
+
+```
+git clone <Ctrl>+V
 ```
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
