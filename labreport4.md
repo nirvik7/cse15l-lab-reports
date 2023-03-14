@@ -22,7 +22,7 @@ git clone <Ctrl>+V <Enter>
 
 Again, I had the forked repository url sitting in my brower so I copied it. In the terminal, I wrote "git clone", which is obviously the repo cloning command, and pasted in the forked repo url. 
 
-![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEORS4jv6Q_I6mQKYKEFlvmXlf7liMtn4UEpigdEGdzkRR93v9pibrn0VCvkTSwynHI5GsI3Kh8P-qnfCBLzFb87GYSiK8Q=w1920-h853)
 
 
 *Step 6: Run the tests, demonstrating that they fail*
