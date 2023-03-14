@@ -8,7 +8,7 @@ Keys pressed:
 <Ctrl>+V
 ```
 
-I had the ssh with cse email on my computer already so I simply copied it while in Google Chrome and then pasted it into the terminal.
+I had the ssh command with the cse email on my computer already so I simply copied it while in Google Chrome and then pasted it into the terminal.
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
 
@@ -19,6 +19,8 @@ Keys pressed:
 ```
 git clone <Ctrl>+V
 ```
+
+Again, I had the forked repository url sitting in my brower so I copied it. In the terminal, I wrote "git clone", which is obviously the repo cloning command, and pasted in the forked repo url. 
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
 
