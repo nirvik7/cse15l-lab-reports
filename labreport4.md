@@ -61,7 +61,7 @@ The JUnit commands were right there because I had just down them so I went a bit
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEOQP1yEq3VeZ5iLWzgxp-C8qJjO7j4Q_AWybxZBwea7Dc9WokbiLO8fxg4BEgGbpog5bHT0RkLAjaRemRVNJh62XH27G=w1920-h853)
 
-*Step 9: Commit and push the resulting change to your Github account *
+*Step 9: Commit and push the resulting change to your Github account*
 
 Keys pressed: 
 
