@@ -47,7 +47,7 @@ nano ListExamples.java <Enter> <down>x41 <right>x12 <backspace> 2 <Ctrl>+X
 
 I used nano to edit ListExamples.java. The edit I had to make was deep into the file so there were many downs and rights to account for but the edit itself was really simple.
 
-![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEOSGGjilb-UcNAOn-r2viX3wFrabN12p5Iu3z-Kl-tNHbXTKfOfrRdZBDG__EkK43iSFsPtO4zPxivilf4MjHubShHkLWw=w1920-h853)
 
 *Step 8: Run the tests, demonstrating that they now succeed*
 
@@ -59,7 +59,7 @@ Keys pressed:
 
 The JUnit commands were right there because I had just down them so I went a bit up into past commands and entered them into the terminal again.
 
-![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEOQP1yEq3VeZ5iLWzgxp-C8qJjO7j4Q_AWybxZBwea7Dc9WokbiLO8fxg4BEgGbpog5bHT0RkLAjaRemRVNJh62XH27G=w1920-h853)
 
 *Step 9: Commit and push the resulting change to your Github account *
 
