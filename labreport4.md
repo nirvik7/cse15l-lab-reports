@@ -5,7 +5,7 @@ __Lab 4 Report__
 Keys pressed: 
 
 ```
-<Ctrl>+V
+<Ctrl>+V <Enter>
 ```
 
 I had the ssh command with the cse email on my computer already so I simply copied it while in Google Chrome and then pasted it into the terminal.
@@ -17,7 +17,7 @@ I had the ssh command with the cse email on my computer already so I simply copi
 Keys pressed: 
 
 ```
-git clone <Ctrl>+V
+git clone <Ctrl>+V <Enter>
 ```
 
 Again, I had the forked repository url sitting in my brower so I copied it. In the terminal, I wrote "git clone", which is obviously the repo cloning command, and pasted in the forked repo url. 
@@ -30,9 +30,9 @@ Again, I had the forked repository url sitting in my brower so I copied it. In t
 Keys pressed: 
 
 ```
-<Ctrl>+V <Ctrl>+V
+cd lab7 <Enter> <Ctrl>+V <Ctrl>+V
 ```
 
-I had the week 3 lab pulled up on my computer with the JUnit commands. I copied the javac command and pasted it into the terminal and then did the same with the java command. Light work.
+First, I went into the newly cloned lab7 repo. Because I had the week 3 lab pulled up on my computer with the JUnit commands, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command. Light work.
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
