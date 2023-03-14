@@ -48,3 +48,27 @@ cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples
 First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+
+*Step 8: Run the tests, demonstrating that they now succeed*
+
+Keys pressed: 
+
+```
+cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples 
+```
+
+First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
+
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+
+*Step 9: Edit the code file to fix the failing test*
+
+Keys pressed: 
+
+```
+cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples 
+```
+
+First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
+
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
