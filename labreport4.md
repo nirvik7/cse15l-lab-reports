@@ -70,4 +70,4 @@ git add . <Enter> git commit -m "yo" <Enter> git push
 ```
 Now, all that needs to be done is to use the git add, commit, and push commands to commit and push the resulting change into Github. Done!
 
-![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEORSX_MoF2bvO104ICmjb_4IWAyFRVeCMMECqkE1rRvLRVvr1dnfjskpXYotixXuA8X6EV6kqcylyUqWFwcjLZWs42nw=w1920-h853)
