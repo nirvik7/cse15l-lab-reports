@@ -42,10 +42,10 @@ First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pull
 Keys pressed: 
 
 ```
-cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples 
+nano ListExamples.java <Enter> <down>x41 <right>x12 <backspace> 2 <Ctrl>+X 
 ```
 
-First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
+I used nano to edit ListExamples.java. The edit I had to make was deep into the file so there were many downs and rights to account for but the edit itself was really simple.
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
 
@@ -54,21 +54,20 @@ First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pull
 Keys pressed: 
 
 ```
-cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples 
+<up>x3 <Enter> <up>x3 <Enter>
 ```
 
-First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
+The JUnit commands were right there because I had just down them so I went a bit up into past commands and entered them into the terminal again.
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
 
-*Step 9: Edit the code file to fix the failing test*
+*Step 9: Commit and push the resulting change to your Github account *
 
 Keys pressed: 
 
 ```
-cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples 
+git add . <Enter> git commit -m "yo" <Enter> git push
 ```
-
-First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
+Now, all that needs to be done is to use the git add, commit, and push commands to commit and push the resulting change into Github. Done!
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
