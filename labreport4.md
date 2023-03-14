@@ -10,7 +10,7 @@ Keys pressed:
 
 I had the ssh command with the cse email on my computer already so I simply copied it while in Google Chrome and then pasted it into the terminal.
 
-![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEOQmCLl95P-uLuR7KvnDmpaQgynOcLD_jToNq6sl0ynTTdsoUExz2vgniei_ygkvCC96z_nlWNivFh43wkcB5UjvKZi29w=w1920-h853)
 
 *Step 5: Clone your fork of the repository from your Github account*
 
@@ -35,7 +35,7 @@ cd lab7 <Enter> <Ctrl>+V <Enter> <Ctrl>+V ListExamples
 
 First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
 
-![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
+![SS1](https://lh3.googleusercontent.com/drive-viewer/AAOQEOQ6xCYLTh_Eei0EyYfIhJEx_yxjsjYFZ5q9TCxn3HZ3XXn75Xn8pZWDzLwKMeDkFmtSIv5W2XsG1l07ino1CuaeHn0LjA=w1920-h853)
 
 *Step 7: Edit the code file to fix the failing test*
 
