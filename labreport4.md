@@ -30,9 +30,9 @@ Again, I had the forked repository url sitting in my brower so I copied it. In t
 Keys pressed: 
 
 ```
-cd lab7 <Enter> <Ctrl>+V <Ctrl>+V
+cd lab7 <Enter> <Ctrl>+V <Ctrl>+V ListExamples 
 ```
 
-First, I went into the newly cloned lab7 repo. Because I had the week 3 lab pulled up on my computer with the JUnit commands, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command. Light work.
+First, I went into the newly cloned lab7 repo. Because I had the week 7 lab pulled up on my computer with the JUnit commands in the example at the bottom, there was not much left to do. I copied the javac command and pasted it into the terminal and then did the same with the java command, adding in "ListExamples". Light work.
 
 ![SS1](https://lh3.googleusercontent.com/drive-viewer/AFDK6gPQ1le77b8QYhNdmLIrYvsDdLwqOwyCDCisH8QG1Bonpav_p4klh5Hpw0ze67WtwlJ25UxyDIxj7dT5pPurkXdPm44s=w1920-h853)
